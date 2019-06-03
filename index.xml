@@ -12,13 +12,22 @@
     
     
     <item>
+      <title>Developers write code, Software Engineers solve problems</title>
+      <link>https://ghadjiyiannis.github.io/blog/developer_vs_engineer/</link>
+      <pubDate>Mon, 03 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ghadjiyiannis.github.io/blog/developer_vs_engineer/</guid>
+      <description>A long time ago, I was in Barcelona attending an API workshop with our teams there. On the second day of the workshop, the discussion got a bit sidetracked, but it was one of those sidetracks that leads to insights that are actually more valuable than the main theme of the workshop. I remember the group CTO at the time declaring &amp;ldquo;Developers write code, Software Engineers solve problems!&amp;rdquo;. For some reason it struck me as such a profound statement that I still remember it to this day as the main idea of value I got from that workshop.</description>
+    </item>
+    
+    <item>
       <title>It&#39;s a start!</title>
       <link>https://ghadjiyiannis.github.io/blog/its_a_start/</link>
       <pubDate>Mon, 03 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://ghadjiyiannis.github.io/blog/its_a_start/</guid>
       <description>Well, here we go!
-As is normal for a software engineer, I have often had discussions with colleagues about the best way of doing things in the field. Sometimes these were opinionated discussions of little substance, but sometimes we would reach some conslusions interesting enough to warrant capturing somewhere. While I often joked about writing a book on the topic, I have been thinking of putting together a blog for quite a while.</description>
+As is normal for a software engineer, I have often had discussions with colleagues about the best way of doing things in the field. Sometimes these were opinionated discussions of little substance, but sometimes we would reach some conclusions interesting enough to warrant capturing somewhere. While I often joked about writing a book on the topic, I have been thinking of putting together a blog for quite a while.</description>
     </item>
     
   </channel>

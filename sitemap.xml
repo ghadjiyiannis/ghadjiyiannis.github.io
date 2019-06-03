@@ -20,6 +20,17 @@
   </url>
   
   <url>
+    <loc>https://ghadjiyiannis.github.io/blog/developer_vs_engineer/</loc>
+    <lastmod>2019-06-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ghadjiyiannis.github.io/categories/engineers/</loc>
+    <lastmod>2019-06-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://ghadjiyiannis.github.io/categories/general/</loc>
     <lastmod>2019-06-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -34,6 +45,12 @@
   <url>
     <loc>https://ghadjiyiannis.github.io/blog/its_a_start/</loc>
     <lastmod>2019-06-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ghadjiyiannis.github.io/categories/recruiting/</loc>
+    <lastmod>2019-06-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
