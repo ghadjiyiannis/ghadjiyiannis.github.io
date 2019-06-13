@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Software Engineering on George Hadjiyiannis</title>
+    <link>https://ghadjiyiannis.github.io/categories/software-engineering/</link>
+    <description>Recent content in Software Engineering on George Hadjiyiannis</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 13 Jun 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ghadjiyiannis.github.io/categories/software-engineering/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Software is hard - Part 1: Scaling</title>
+      <link>https://ghadjiyiannis.github.io/blog/software_is_hard_scaling/</link>
+      <pubDate>Thu, 13 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ghadjiyiannis.github.io/blog/software_is_hard_scaling/</guid>
+      <description>A long time ago, when I was still in college, I was fortunate enough to take a Software Engineering class by Prof. John Guttag. I remember him starting one of the lectures with the question:
+&amp;ldquo;Can anyone here write a 10,000 LOC program in a year?&amp;rdquo;
+A large portion of the class raised their hands (this is MIT, after all). He then proceeded to ask:
+&amp;ldquo;Can anyone here write a 100,000 LOC program in ten years?</description>
+    </item>
+    
+  </channel>
+</rss>
