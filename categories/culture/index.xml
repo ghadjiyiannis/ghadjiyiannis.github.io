@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Culture on George Hadjiyiannis</title>
+    <link>https://ghadjiyiannis.github.io/categories/culture/</link>
+    <description>Recent content in Culture on George Hadjiyiannis</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 24 Jun 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ghadjiyiannis.github.io/categories/culture/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Evolving Team Culture</title>
+      <link>https://ghadjiyiannis.github.io/blog/seeding_team_culture/</link>
+      <pubDate>Mon, 24 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ghadjiyiannis.github.io/blog/seeding_team_culture/</guid>
+      <description>Team culture is one of those things that gets talked about a lot when it is not quite right, but rarely worked on effectively. Yet so much of the outcome in the end depends on team culture. I bet that the majority of the people reading this article have experienced teams working in their own silos. Think about the influence it has on the ability of the company to drive successful outcomes.</description>
+    </item>
+    
+  </channel>
+</rss>
