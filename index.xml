@@ -6,10 +6,19 @@
     <description>Recent content on George Hadjiyiannis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 28 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 02 Jul 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://ghadjiyiannis.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Software is hard - Part 2: Implicit Requirements</title>
+      <link>https://ghadjiyiannis.github.io/blog/software_is_hard_implicit_requirements/</link>
+      <pubDate>Tue, 02 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ghadjiyiannis.github.io/blog/software_is_hard_implicit_requirements/</guid>
+      <description>Every professional in the software industry knows that building software is a highly unpredictable business. This is why we don&amp;rsquo;t like the question of &amp;ldquo;How long is it going to take?&amp;rdquo;. The thing that always puzzled me, however, is that that unpredictability always seems to point in the wrong direction: software seems to almost always take longer to build than expected. With practically any other process, one would expect something similar to a normal (binomial) distribution around the expected estimate.</description>
+    </item>
     
     <item>
       <title>The role of execution in innovation</title>

@@ -2,36 +2,36 @@
 <html lang="en">
   <head>
   <meta charset="utf-8">
-<title>When Lean works against you - George Hadjiyiannis</title>
-<meta name="description" content="Make sure you are not applying a methodology to a scenario that it was never intended for.">
+<title>Software is hard - Part 2: Implicit Requirements - George Hadjiyiannis</title>
+<meta name="description" content="The requirements you can see at the beginning are only the tip of the iceberg.">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
 
   <meta name="generator" content="Hugo 0.55.6" />
   
-<meta itemprop="name" content="When Lean works against you">
-<meta itemprop="description" content="Make sure you are not applying a methodology to a scenario that it was never intended for.">
+<meta itemprop="name" content="Software is hard - Part 2: Implicit Requirements">
+<meta itemprop="description" content="The requirements you can see at the beginning are only the tip of the iceberg.">
 
 
-<meta itemprop="datePublished" content="2019-06-06T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2019-06-06T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="1512">
+<meta itemprop="datePublished" content="2019-07-02T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2019-07-02T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="1631">
 
 
 
 <meta itemprop="keywords" content="" />
 
-  <meta property="og:title" content="When Lean works against you" />
-<meta property="og:description" content="Make sure you are not applying a methodology to a scenario that it was never intended for." />
+  <meta property="og:title" content="Software is hard - Part 2: Implicit Requirements" />
+<meta property="og:description" content="The requirements you can see at the beginning are only the tip of the iceberg." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://ghadjiyiannis.github.io/blog/when_lean_works_against_you/" />
-<meta property="article:published_time" content="2019-06-06T00:00:00&#43;00:00"/>
-<meta property="article:modified_time" content="2019-06-06T00:00:00&#43;00:00"/>
+<meta property="og:url" content="https://ghadjiyiannis.github.io/blog/software_is_hard_implicit_requirements/" />
+<meta property="article:published_time" content="2019-07-02T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2019-07-02T00:00:00&#43;00:00"/>
 
   <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="When Lean works against you"/>
-<meta name="twitter:description" content="Make sure you are not applying a methodology to a scenario that it was never intended for."/>
+<meta name="twitter:title" content="Software is hard - Part 2: Implicit Requirements"/>
+<meta name="twitter:description" content="The requirements you can see at the beginning are only the tip of the iceberg."/>
 
   
 
@@ -193,15 +193,15 @@
   <header>
   <div class="title">
     
-        <h2><a href="/blog/when_lean_works_against_you/">When Lean works against you</a></h2>
+        <h2><a href="/blog/software_is_hard_implicit_requirements/">Software is hard - Part 2: Implicit Requirements</a></h2>
     
     
-        <p>Make sure you are not applying a methodology to a scenario that it was never intended for.</p>
+        <p>The requirements you can see at the beginning are only the tip of the iceberg.</p>
     
 </div>
   <div class="meta">
-    <time class="published" datetime="2019-06-06 00:00:00 &#43;0000 UTC">
-      June 6, 2019
+    <time class="published" datetime="2019-07-02 00:00:00 &#43;0000 UTC">
+      July 2, 2019
     </time>
     <span class="author">George Hadjiyiannis</span>
     
@@ -248,121 +248,123 @@
 
   </section>
   
-<a href="/blog/when_lean_works_against_you/" class="image featured">
-  <img src="/img/2019/06/lean_startup_bg.jpg" alt="Lean Startup">
+<a href="/blog/software_is_hard_implicit_requirements/" class="image featured">
+  <img src="/img/2019/07/iceberg.jpg" alt="Tip of the Iceberg">
 </a>
 
 
   <div class="content">
-    <p>There is an unfortunate pattern in business where, once an idea becomes successful, people try to copy
-it into all sort of other scenarios. I always felt like the following picture summed up nicely how
-everyone feels about this phenomenon, as it relates to the outcome of the Agile Manifesto:</p>
+    <p>Every professional in the software industry knows that building software is a highly unpredictable
+business. This is why we don&rsquo;t like the question of &ldquo;How long is it going to take?&rdquo;. The thing that
+always puzzled me, however, is that that unpredictability always seems to point in the wrong
+direction: software seems to almost always take longer to build than expected. With practically any other
+process, one would expect something similar to a normal (binomial) distribution around the expected estimate.
+Sometimes the project would take more time than the estimate, and sometimes less. But with
+software, it almost <em>always</em> takes longer. I can&rsquo;t help but ask why that is. I believe the answer
+has many different components, but one of the most important (and most insidious) ones is implicit
+requirements.</p>
 
-<p><img src="/img/2019/06/not_another_manifesto.jpg" alt="Not Another Manifesto" /></p>
+<p>Every piece of software has at its core a small set of use cases that generate the primary value-add
+for the end user. Most of us tend to naturally focus on these core set of requirements, especially at
+the beginning before any of the software has been built. And when called upon to estimate how long the
+software will take to build, we tend to judge the size and complexity of this set, and then give an
+estimate based on that. Unfortunately, in most typical software, the core use cases represent <em>only a
+small fraction</em> of the total set of use cases that need to be built. There is a much larger set of
+requirements that are required to be in place for the core set to work at all, and these use cases
+are typically not visible until a much deeper analysis.</p>
 
-<p>The main problem with this pattern is that, sooner or later, people end up applying said idea to
-scenarios where it is not really applicable. At best, the idea becomes ineffective or a distraction.
-At worst, it can work against you, leading you down a path that destroys value instead of generating it.</p>
+<p>Let&rsquo;s illustrate by using an example. Imagine you wish to write a simple messenger application.
+To keep things simple we will pretend that this is meant to be a web application rather than a
+mobile application, but the arguments would apply equally well to a mobile application. In this app,
+you can select a person you know and send them a message. They can respond, and this will show up in
+the same thread. You can also add people to a thread (but they will not see any messages that
+were sent before they were added, to keep things simple). This application is not tied to a specific
+company, and people may send messages to people outside the company as well, but it is meant to be
+suitable for a commercial environment. So how many core uses cases are there in such an app?
+Well, there is the actual thread view where I can see the messages in a thread and post messages to
+the thread. And there is the use case of adding a person to the thread. A new thread is created by
+adding the first person. So all in all, there are only two core use cases (we <em>did</em> try hard to keep it
+simple). Almost all of the end-user value is generated by these two core use cases.</p>
 
-<p>The one instance of this pattern I want to focus on, is the pattern of slapping &ldquo;Lean&rdquo; in front of
-everything nowadays (I will probably write additional posts about other instances in the future). Since
-<a href="http://theleanstartup.com/book" title="The Lean Startup, by Eric Ries">Eric Ries&rsquo; classic book</a> (which I can only <em>strongly recommend</em>), the concept has been copied
-and over-applied to a degree that is hard to believe. As I was typing this post, I
-<a href="https://www.amazon.com/s?k=Lean&amp;i=stripbooks-intl-ship&amp;ref=nb_sb_noss_2" title="Lean books on Amazon">searched for &ldquo;Lean&rdquo;</a> in the books department of Amazon, which promptly returned the
-first 16 of a stunning 20,000 results! It is hard to argue that the concept has not been over-applied.</p>
+<p>These use cases are not viable, however, without a number of additional use cases that we did not
+describe above. To begin with, finding a user means that they have a user profile of some sort that
+we can search on; this is required by the core use case of adding a user to a thread. Implicitly,
+we need a use case for creating a profile, one for editing a profile, and we need a login mechanism.
+If we have a login mechanism that relies on username and password, we also need use cases for
+handling forgotten passwords. And the most typical mechanisms for handling forgotten passwords
+rely on security questions, so now we need a use case for managing those as well. All of a sudden,
+we went from having the two core use cases to having another three for managing profiles,
+forgotten passwords, and security questions. Realistically, our core use case of finding a user
+implies another three use cases we did not foresee until we looked deeper.</p>
 
-<p>Before I dive into the impact of misapplying the &ldquo;Lean&rdquo; concept, I would like to state on record a couple
-of disclaimers:</p>
+<p>Let&rsquo;s take it another step further. If you have ever tried to find someone on Skype you will
+certainly know the frustration of typing a first and last name in the search bar and getting a
+large number of returned results, with no clear way of identifying the individual you want. If you
+are lucky, that user has set a profile photo, but even then there are often people that have
+multiple accounts with the same photo (I have created one account for each company I worked at,
+in order to be able to keep my work account and my personal account separate). In short, that
+profile will need something more than just first and last name in it. On Skype, I often check
+location as a way to narrow the search results. If you plan to include location in the profile,
+then you will most likely end up having a list of countries and probably State or Provinces. It
+would not be a good idea to hardwire these as they do change (what is now the <a href="https://en.wikipedia.org/wiki/North_Macedonia" title="North Macedonia">Republic of North
+Macedonia</a> used to be known as FYROM as recently as January 2019, and did not even exist
+before September 1991). And it is not just countries and provinces. If you have phone numbers in
+the profile you will need a list of country codes. If you display flag icons associated with the
+countries, you will need to manage those as well. So our implicit use case of managing profiles
+now implies a number of other use cases for managing reference data.</p>
 
-<p>First and foremost, I find the concept of &ldquo;Lean Startup&rdquo; as originally described by Ries, as well as the
-associated concept of an MVP (Minimum Viable Product), to be a really powerful idea. My objections lie not
-with the concepts described by Ries, but rather with the misapplication of those concepts. If you are a
-startup that is using Lean to discover as quickly as possible the right product for your target
-segment, then you have my full support.</p>
+<p>Then there use cases implied by legislation. The profile information we talked about is protected
+under <a href="https://eugdpr.org/" title="General Data Protection Regulation">GDPR</a> in Europe. If you allow access by European citizens (even if your company is not based
+in Europe), you are obliged to abide by the rules of GDPR. In general, this will imply (at a minimum)
+obtaining user consent (unless you use some other legal basis for obtaining the data, but that
+unlikely in the application as we described it). You may also want to cover the right to erasure,
+the right to access, the right to rectification, and the right to restrict processing. Sounds like
+we might be adding another five use cases to our total.</p>
 
-<p>Second, I draw a very strong distinction between Lean Startup and MVP as concepts, and the concepts
-behind the <a href="https://en.wikipedia.org/wiki/Toyota_Production_System" title="Toyota Production System">Toyota Production System</a>. I personally think the idolatry of the TPS is also an
-instance of this pattern of misapplying ideas to contexts where they are not applicable, but I do not
-intend to address it in the current post (perhaps a future one).</p>
+<p>And then there are the use cases required by enterprise customers. Generally, companies like having
+control of any of the accounts that are considered company accounts. This means that your
+enterprise customers will expect that, at a minimum, they can disable accounts that are considered
+corporate accounts. This means another use case for administrators to manage such accounts. But
+it also implies having an entity representing the company (to which the corporate accounts can
+belong), so you can add another use case for creating and managing the corresponding entity. Oh, and you will
+need to add a use case for managing the syadmin accounts of a corporate entity. And some of your
+enterprise customers will insist on having SSO capabilities (since all their other applications
+work with SSO), so add another use case for the SSO login, and another for managing the SSO certificates,
+identity providers, etc.</p>
 
-<p>And with the two disclaimers in place, time to dive into some of the dysfunction that ensues when the
-concepts of Lean and MVP get misapplied. The problem with this particular instance, is that
-misapplication of &ldquo;Lean&rdquo; often falls in the damaging category.</p>
+<p>And finally, there are requirements that are implied by simple prudence. The moment you have things
+like permissions and SSO involved, changes to the configuration in your application become a security
+concern for your enterprise customer. Most certifications require that they have audit processes in
+place for changes that impact access control and authentication, so add some infrastructure for
+audit logs, and a use cases for searching and viewing the logs. You probably will also be asked about
+your Disaster Recovery and Business Continuity plans - once again, they need to show they have something
+in place in order to maintain their certification, and by extension they will ask that of you. Then there&rsquo;s
+things like performance monitoring and availability monitoring that you probably want to put in place
+both for yourself and your customers. And so on, and so forth.</p>
 
-<p>Let&rsquo;s start with a case that is
-unfortunately all too common in the world of B2B (and one that many of us in the industry have
-experienced first-hand): that of the brand new version of software. Companies with products that
-are well established in their target segments still need to renew their software every few years, if
-for no other reason, to remain competitive and to adjust to advancing user expectations. And quite a
-few of them come up with the seemingly natural idea of &ldquo;doing a lean MVP&rdquo; and &ldquo;iterating rapidly&rdquo;.
-While there is nothing wrong with iterating rapidly on the UI/UX, conflating that concept with the
-concept of an MVP creates an interesting pressure to go in the wrong direction: that of putting
-in place a minimal architecture that cannot serve the needs of a production customer. After all,
-putting in place infrastructure for scalability, data security and safety (e.g. encryption at rest),
-business continuity and disaster recovery, auditing, traceability and observability, monitoring,
-cost efficiency in operations, and all the other little things that are generally characteristic of
-large-scale Enterprise-Class Software often takes a lot more time and effort than the actual
-functionality. The end result is that, in the spirit of an MVP, the company bypasses all of these
-requirements and instead starts developing with an architecture that is a skeleton architecture at best.
-This is, of course, more than sufficient to support obtaining feedback in the demos at the end of the
-sprint (you are doing demos to your real users at the end of each sprint, right?), but it contains the
-implicit assumption that the MVP will be replaced with a different system at a future day, more suitable
-to the rigors of actual enterprise use. That is generally when the other shoe drops: your business management has
-spent a lot time and money to iterate over the new user experience and now want to monetize it. And they have seen all
-the functionality with their own eyes (in those same sprint demos) so they can&rsquo;t understand why the product is
-not ready. To make matters worse, if you were successful in dramatically improving the user experience,
-your very large B2B customer has been hearing their users raving about the new product, and is unwilling
-to continue with the old one. The end result: your MVP, which still has a skeleton architecture, is pushed
-to production, along with a massive amount of technical debt, and woefully insufficient support for all
-the non-functional requirements. Since the major manifestation of this deficiency appears as poor scalability, performance,
-and stability, both business and customer perceive this as a quality issue, and the fact that the wrong
-strategy got executed is very neatly masked and very hard to diagnose.</p>
-
-<p>So, where did all this go wrong? Or stated differently, why does an MVP make sense for a startup but leads
-to so much trouble in this case? For one thing, an MVP is designed to do something entirely different in a
-startup: <em>it is designed to establish problem-solution fit and product-market fit!</em> In an established B2B
-creating a new version of a product that has clear market traction, neither of those two things need to
-be established. The MVP is clearly being applied to something other than what it was originally intended to do!</p>
-
-<p>Using a similar scenario let&rsquo;s examine a second way in which companies get in trouble. Once again, your company
-is exploring the possibility of a new product extension for some of the large B2B customers. A product
-manager reaches out to one of the target customers and convinces them to engage in a pilot. The company
-invests in an MVP, developed in close cooperation with the pilot customer. After the MVP is completed, the
-sales team tries to convince other customers to sign up to the product extension, only to find out that
-the product is too specific to the first pilot customer (it evolved into a point solution), and the rest
-of the customers are generally not interested. The outcome is that you now have a product that very few customers
-have signed up for, that you have to support and maintain. Unfortunately, business management is not willing
-to lose the small amount of revenue that the product is generating so they commit to keeping the product
-in place. Here the company comes to a fork in the road: down one path, the company can continue to maintain
-and support the product but at the cost of losing money on it. Down the other path, the company continues to
-provide the product to the few customers that have signed up, but minimizes investment, effectively not
-properly maintaining and supporting the product. Understandably, neither of those outcomes generates value.</p>
-
-<p>Once again, there is a key misapplication of the original Lean Startup idea that led to this outcome: remember
-that the original point of the MVP in Lean Startup is to establish whether the product is viable in the market,
-<em>and if not, pivot!</em> In this case, the pivot never happened. I think every entrepreneur instinctively realizes
-that a pivot that is necessary but never happens will spell certain death for a startup. The problem is that
-for an established company, a missed pivot behaves more like a chronic condition than an acute one - it
-will certainly deteriorate the health of the company but, because the effect is not immediate, the danger
-is not as visible.</p>
-
-<p>The third and final dysfunction is a bit more subtle: pivoting in B2B is radically different than pivoting in
-B2C. There are two effects behind this:</p>
+<p>Hopefully by now you are beginning to see how our two core use cases exploded into a set much bigger than
+what we originally expected. We admittedly cut a few corners for simplification: not all uses cases are born
+equal, and some of the implied use cases you might be able to postpone for a while, but that does not
+change the conclusion: the bulk of the requirements comes from the implicit use cases that are there to
+support the value-generating core, not the core use cases themselves. The core uses cases really <em>are</em>
+just the tip of the iceberg. Note that there are two tendencies in Agile that tend to make this trend
+significantly worse:</p>
 
 <ul>
-<li>In B2C you define a product with the help of the law of averages: even when practically non-existent, a
-B2C company is going to be working with a sample user size of over 1000 unrelated users. The end result
-is that it is much harder to end up with a point solution - there&rsquo;s simply much less opportunity for
-group-think in a sample of 1000 unrelated users, than a sample of 40 users that work for the same organization.</li>
-<li>Pivoting away from 1000 users to what could potentially be of value to hundreds of millions of users is a lot
-easier to do, than pivoting away from the (admittedly partial) requirements of a B2B customer that represents
-12% of your revenue.</li>
+<li>The focus on business value tends to keep the spotlight on core uses cases and increases the probability
+that implicit requirements will be missed.</li>
+<li>The emphasis on relative estimation means that implicit requirements are never included unless the
+estimate is relative to an epic which took into account all implicit requirements. This is rarely the case.</li>
 </ul>
 
-<p>At the end of the day, making to leap of faith to pivot is simply a lot harder to do in the context of an
-established B2B company with existing large customers.</p>
-
-<p>Long story short, read the product label carefully before you take the medication!</p>
+<p>In the end, most teams I know of try to paste on a solution on top of the Agile framework, by trying to
+independently identify all implicit requirements using hard-earned experience, and then entering them
+into the backlog as independent user stories. Typically these are judged as being of lower priority, and
+end up being implemented in the later parts of the life-cycle, meaning that the architecture and implementation
+already in existence (and, often, already deployed to production) does not take them into account. As a
+result, they are often more costly, and much more risky than they need to be. That is simply one of the
+shortcomings of Agile - if anyone told you Agile didn&rsquo;t have any, they lied, but that is the topic for
+yet another, future, post.</p>
 
   </div>
   <footer>
@@ -374,10 +376,10 @@ established B2B company with existing large customers.</p>
         <ul>
           
             
-            <li><a class="article-category-link" href="https://ghadjiyiannis.github.io/categories/lean">Lean</a></li>
+            <li><a class="article-category-link" href="https://ghadjiyiannis.github.io/categories/software-engineering">Software Engineering</a></li>
           
             
-            <li><a class="article-category-link" href="https://ghadjiyiannis.github.io/categories/methodology">Methodology</a></li>
+            <li><a class="article-category-link" href="https://ghadjiyiannis.github.io/categories/requirements">Requirements</a></li>
           
         </ul>
       </li>
@@ -400,10 +402,8 @@ established B2B company with existing large customers.</p>
 </article>
 <div class="pagination">
   
-    <a href="/blog/developer_vs_engineer/" class="button big previous"><i class="fas fa-angle-left"></i> Developers write code, Software Engineers solve problems</a>
+    <a href="/blog/execution_in_innovation/" class="button big previous"><i class="fas fa-angle-left"></i> The role of execution in innovation</a>
   
-  
-    <a href="/blog/software_is_hard_scaling/" class="button big next">Software is hard - Part 1: Scaling <i class="fas fa-angle-right"></i></a>
   
 </div>
 

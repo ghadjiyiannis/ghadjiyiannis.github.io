@@ -4,20 +4,37 @@
   
   <url>
     <loc>https://ghadjiyiannis.github.io/blog/</loc>
-    <lastmod>2019-06-28T00:00:00+00:00</lastmod>
+    <lastmod>2019-07-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ghadjiyiannis.github.io/categories/</loc>
-    <lastmod>2019-06-28T00:00:00+00:00</lastmod>
+    <lastmod>2019-07-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ghadjiyiannis.github.io/</loc>
-    <lastmod>2019-06-28T00:00:00+00:00</lastmod>
+    <lastmod>2019-07-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ghadjiyiannis.github.io/categories/requirements/</loc>
+    <lastmod>2019-07-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ghadjiyiannis.github.io/categories/software-engineering/</loc>
+    <lastmod>2019-07-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ghadjiyiannis.github.io/blog/software_is_hard_implicit_requirements/</loc>
+    <lastmod>2019-07-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -40,12 +57,6 @@
   <url>
     <loc>https://ghadjiyiannis.github.io/blog/seeding_team_culture/</loc>
     <lastmod>2019-06-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ghadjiyiannis.github.io/categories/software-engineering/</loc>
-    <lastmod>2019-06-13T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
