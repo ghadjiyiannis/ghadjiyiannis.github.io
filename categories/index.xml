@@ -6,10 +6,28 @@
     <description>Recent content in Categories on George Hadjiyiannis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 02 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 09 Jul 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://ghadjiyiannis.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Culture</title>
+      <link>https://ghadjiyiannis.github.io/categories/culture/</link>
+      <pubDate>Tue, 09 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ghadjiyiannis.github.io/categories/culture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recruiting</title>
+      <link>https://ghadjiyiannis.github.io/categories/recruiting/</link>
+      <pubDate>Tue, 09 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ghadjiyiannis.github.io/categories/recruiting/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Requirements</title>
@@ -35,15 +53,6 @@
       <pubDate>Fri, 28 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://ghadjiyiannis.github.io/categories/innovation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Culture</title>
-      <link>https://ghadjiyiannis.github.io/categories/culture/</link>
-      <pubDate>Mon, 24 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://ghadjiyiannis.github.io/categories/culture/</guid>
       <description></description>
     </item>
     
@@ -80,15 +89,6 @@
       <pubDate>Mon, 03 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://ghadjiyiannis.github.io/categories/general/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Recruiting</title>
-      <link>https://ghadjiyiannis.github.io/categories/recruiting/</link>
-      <pubDate>Mon, 03 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://ghadjiyiannis.github.io/categories/recruiting/</guid>
       <description></description>
     </item>
     

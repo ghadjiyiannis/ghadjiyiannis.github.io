@@ -6,10 +6,19 @@
     <description>Recent content in Blog on George Hadjiyiannis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 02 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 09 Jul 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://ghadjiyiannis.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Designing a Hiring Strategy</title>
+      <link>https://ghadjiyiannis.github.io/blog/designing_a_hiring_strategy/</link>
+      <pubDate>Tue, 09 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ghadjiyiannis.github.io/blog/designing_a_hiring_strategy/</guid>
+      <description>Let&amp;rsquo;s face it: most of the companies out there (including most of the ones I worked for) hire opportunistically. They wait until they have a specific need, then quickly put together a job description, and publish the opening in the various channels that are readily accessible, hoping that they get a fit. Most of the time they can&amp;rsquo;t find what they are looking for in a reasonable amount of time, and for the right salary.</description>
+    </item>
     
     <item>
       <title>Software is hard - Part 2: Implicit Requirements</title>
