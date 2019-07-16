@@ -6,10 +6,20 @@
     <description>Recent content on George Hadjiyiannis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 09 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jul 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://ghadjiyiannis.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>CI/CD Pipeline Design: The Stages</title>
+      <link>https://ghadjiyiannis.github.io/blog/cicd_pipeline_design_environments/</link>
+      <pubDate>Tue, 16 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ghadjiyiannis.github.io/blog/cicd_pipeline_design_environments/</guid>
+      <description>Building CI/CD pipelines seems to be one of those topics that every team seems to struggle with. There are many effects that contribute to this:
+ CI pipelines are almost always legacy infrastructure, built at a time when both the software and the team were fundamentally smaller and simpler. Being tooling infrastructure, they are never a priority. As a result they are never maintained or adjusted to new needs. For the same reason (not a priority), people almost never invest any significant amount of design in them.</description>
+    </item>
     
     <item>
       <title>Designing a Hiring Strategy</title>

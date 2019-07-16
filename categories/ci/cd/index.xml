@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Methodology on George Hadjiyiannis</title>
-    <link>https://ghadjiyiannis.github.io/categories/methodology/</link>
-    <description>Recent content in Methodology on George Hadjiyiannis</description>
+    <title>CI/CD on George Hadjiyiannis</title>
+    <link>https://ghadjiyiannis.github.io/categories/ci/cd/</link>
+    <description>Recent content in CI/CD on George Hadjiyiannis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 16 Jul 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://ghadjiyiannis.github.io/categories/methodology/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ghadjiyiannis.github.io/categories/ci/cd/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,16 +19,6 @@
       <guid>https://ghadjiyiannis.github.io/blog/cicd_pipeline_design_environments/</guid>
       <description>Building CI/CD pipelines seems to be one of those topics that every team seems to struggle with. There are many effects that contribute to this:
  CI pipelines are almost always legacy infrastructure, built at a time when both the software and the team were fundamentally smaller and simpler. Being tooling infrastructure, they are never a priority. As a result they are never maintained or adjusted to new needs. For the same reason (not a priority), people almost never invest any significant amount of design in them.</description>
-    </item>
-    
-    <item>
-      <title>When Lean works against you</title>
-      <link>https://ghadjiyiannis.github.io/blog/when_lean_works_against_you/</link>
-      <pubDate>Thu, 06 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://ghadjiyiannis.github.io/blog/when_lean_works_against_you/</guid>
-      <description>There is an unfortunate pattern in business where, once an idea becomes successful, people try to copy it into all sort of other scenarios. I always felt like the following picture summed up nicely how everyone feels about this phenomenon, as it relates to the outcome of the Agile Manifesto:
-The main problem with this pattern is that, sooner or later, people end up applying said idea to scenarios where it is not really applicable.</description>
     </item>
     
   </channel>
