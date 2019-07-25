@@ -19,7 +19,7 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://ghadjiyiannis.github.io/blog/" />
 
-<meta property="og:updated_time" content="2019-07-16T00:00:00&#43;00:00"/>
+<meta property="og:updated_time" content="2019-07-24T00:00:00&#43;00:00"/>
 
   <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Blog"/>
@@ -192,6 +192,74 @@
   <header>
   <div class="title">
     
+        <h2><a href="/blog/cicd_pipeline_design_build_deploy_test/">CI/CD Pipeline Design: Build-Deploy-Test</a></h2>
+    
+    
+        <p>The Build-Deploy-Test process, and the core structure of the pipelines.</p>
+    
+</div>
+  <div class="meta">
+    <time class="published" datetime="2019-07-24 00:00:00 &#43;0000 UTC">
+      July 24, 2019
+    </time>
+    <span class="author">George Hadjiyiannis</span>
+    
+        <p>16 minute read</p>
+    
+  </div>
+</header>
+
+  
+<a href="/blog/cicd_pipeline_design_build_deploy_test/" class="image featured">
+  <img src="/img/2019/07/dials.jpg" alt="Pipeline Structure">
+</a>
+
+
+  
+  <p>The <a href="/blog/cicd_pipeline_design_environments/" title="CI/CD Pipeline Design: The Stages">first part</a> of the series defined the objectives of the pipelines, and defined the stages
+that go with them. In this second part, I will focus on the core Build-Deploy-Test loop, which forms
+the core of each pipeline, and the design objectives and design decisions we made. If you have not read
+<a href="/blog/cicd_pipeline_design_environments/" title="CI/CD Pipeline Design: The Stages">Part 1</a>, I would recommend that you do so first, since this part will assume some context that
+is provided in the previous article.</p>
+  <footer>
+    <a href="/blog/cicd_pipeline_design_build_deploy_test/" class="button big">Read more</a>
+    <ul class="stats">
+  
+    
+    
+      <li class="categories">
+        <ul>
+          
+            
+            <li><a class="article-category-link" href="https://ghadjiyiannis.github.io/categories/ci/cd">CI/CD</a></li>
+          
+            
+            <li><a class="article-category-link" href="https://ghadjiyiannis.github.io/categories/devops">DevOps</a></li>
+          
+            
+            <li><a class="article-category-link" href="https://ghadjiyiannis.github.io/categories/methodology">Methodology</a></li>
+          
+        </ul>
+      </li>
+    
+  
+  
+    <li class="tags">
+      <ul>
+        <li>None</li>
+      </ul>
+    </li>
+  
+</ul>
+
+  </footer>
+</article>
+
+        
+          <article class="post">
+  <header>
+  <div class="title">
+    
         <h2><a href="/blog/cicd_pipeline_design_environments/">CI/CD Pipeline Design: The Stages</a></h2>
     
     
@@ -319,71 +387,6 @@ point:</p>
 </article>
 
         
-          <article class="post">
-  <header>
-  <div class="title">
-    
-        <h2><a href="/blog/software_is_hard_implicit_requirements/">Software is hard - Part 2: Implicit Requirements</a></h2>
-    
-    
-        <p>The requirements you can see at the beginning are only the tip of the iceberg.</p>
-    
-</div>
-  <div class="meta">
-    <time class="published" datetime="2019-07-02 00:00:00 &#43;0000 UTC">
-      July 2, 2019
-    </time>
-    <span class="author">George Hadjiyiannis</span>
-    
-        <p>8 minute read</p>
-    
-  </div>
-</header>
-
-  
-<a href="/blog/software_is_hard_implicit_requirements/" class="image featured">
-  <img src="/img/2019/07/iceberg.jpg" alt="Tip of the Iceberg">
-</a>
-
-
-  
-  <p>Every professional in the software industry knows that building software is a highly unpredictable
-business. This is why we don&rsquo;t like the question of &ldquo;How long is it going to take?&rdquo;. The thing that
-always puzzled me, however, is that that unpredictability always seems to point in the wrong
-direction: software seems to almost always take longer to build than expected. With practically any other
-process, one would expect something similar to a normal (binomial) distribution&hellip;</p>
-  <footer>
-    <a href="/blog/software_is_hard_implicit_requirements/" class="button big">Read more</a>
-    <ul class="stats">
-  
-    
-    
-      <li class="categories">
-        <ul>
-          
-            
-            <li><a class="article-category-link" href="https://ghadjiyiannis.github.io/categories/software-engineering">Software Engineering</a></li>
-          
-            
-            <li><a class="article-category-link" href="https://ghadjiyiannis.github.io/categories/requirements">Requirements</a></li>
-          
-        </ul>
-      </li>
-    
-  
-  
-    <li class="tags">
-      <ul>
-        <li>None</li>
-      </ul>
-    </li>
-  
-</ul>
-
-  </footer>
-</article>
-
-        
         
 <div class="pagination">
   
@@ -400,6 +403,21 @@ process, one would expect something similar to a normal (binomial) distribution&
     <header>
       <h1>Recent posts</h1>
     </header>
+    
+    <article class="mini-post">
+      <section>
+        
+<a href="/blog/cicd_pipeline_design_build_deploy_test/" class="image featured">
+  <img src="/img/2019/07/dials.jpg" alt="Pipeline Structure">
+</a>
+
+
+      </section>
+      <header>
+        <h1><a href="/blog/cicd_pipeline_design_build_deploy_test/">CI/CD Pipeline Design: Build-Deploy-Test</a></h1>
+        <time class="published" datetime="">July 24, 2019</time>
+      </header>
+    </article>
     
     <article class="mini-post">
       <section>
@@ -461,21 +479,6 @@ process, one would expect something similar to a normal (binomial) distribution&
       </header>
     </article>
     
-    <article class="mini-post">
-      <section>
-        
-<a href="/blog/seeding_team_culture/" class="image featured">
-  <img src="/img/2019/06/team_culture.jpg" alt="Team Culture">
-</a>
-
-
-      </section>
-      <header>
-        <h1><a href="/blog/seeding_team_culture/">Evolving Team Culture</a></h1>
-        <time class="published" datetime="">June 24, 2019</time>
-      </header>
-    </article>
-    
     
       <a href="/blog/" class="button">See more</a>
     
@@ -494,12 +497,22 @@ process, one would expect something similar to a normal (binomial) distribution&
           
           <li>
             
+              <a href="/categories/methodology/">methodology<span class="count">3</span></a>
+            
+          
+          <li>
+            
+              <a href="/categories/ci/cd/">ci/cd<span class="count">2</span></a>
+            
+          
+          <li>
+            
               <a href="/categories/culture/">culture<span class="count">2</span></a>
             
           
           <li>
             
-              <a href="/categories/methodology/">methodology<span class="count">2</span></a>
+              <a href="/categories/devops/">devops<span class="count">2</span></a>
             
           
           <li>
@@ -510,16 +523,6 @@ process, one would expect something similar to a normal (binomial) distribution&
           <li>
             
               <a href="/categories/software-engineering/">software-engineering<span class="count">2</span></a>
-            
-          
-          <li>
-            
-              <a href="/categories/ci/cd/">ci/cd<span class="count">1</span></a>
-            
-          
-          <li>
-            
-              <a href="/categories/devops/">devops<span class="count">1</span></a>
             
           
           <li>

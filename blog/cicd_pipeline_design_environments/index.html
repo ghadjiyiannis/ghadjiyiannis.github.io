@@ -282,7 +282,7 @@ some of the problems we were trying to solve are fairly common, and you may find
 for you as well.</p>
 
 <p>In this first part, I will focus on defining the objectives of the pipelines, and on defining the stages
-we decided to go with. In the second part, I will focus on the main Build-Deploy-Test loop, and the design
+we decided to go with. In the <a href="/blog/cicd_pipeline_design_build_deploy_test/" title="CI/CD Pipeline Design: Build-Deploy-Test">second part</a>, I will focus on the main Build-Deploy-Test loop, and the design
 decisions we made in each part of the loop. In the third part, I will show how we put everything together,
 and additional optimizations one could implement.</p>
 
@@ -390,7 +390,7 @@ preventing it from climbing too high.</p>
 
 <p>Finally, there is one last stage that is easily forgotten: <strong>Local</strong>. This represents the checks and
 tests performed on the development machine itself. The main reason for declaring the developer machine a stage
-was our belief that, the best place to catch all those little errors that degrade code health
+was our belief that the best place to catch all those little errors that degrade code health
 was before the code was committed to the repository in the first place. This means that the corresponding
 checks have to be done before commit, on the local machine of the developer. Our expectation is that
 developers clean their own code on their own machines, and only expose other developers to clean code.
@@ -399,7 +399,7 @@ or RC. As a result, developers were expected to not only test that their modific
 run all the tests that would run on Commit, and make sure that Commit would not fail. Note that it did
 not mean that this set of tests runs within a Jenkins pipeline - it did not make sense to us to add the burden
 of a CI/CD infrastructure on developer laptops. However the tests had to be run with a process that was
-guaranteed to be equivalent to what the Commit stage would use (I will explain the solution in Part 2
+guaranteed to be equivalent to what the Commit stage would use (I will explain the solution in <a href="/blog/cicd_pipeline_design_build_deploy_test/" title="CI/CD Pipeline Design: Build-Deploy-Test">Part 2</a>
 of the series).</p>
 
 <p>Stepping back to see the big picture, it is worth pointing out the following: as designed,
@@ -413,7 +413,7 @@ specific attributes:</p>
 </ol>
 
 <p>This proved very important when it came to designing the Build-Deploy-Test loop (which will be
-described in Part 2 of the series). The table below shows a summary of the environments and the three attributes.</p>
+described in <a href="/blog/cicd_pipeline_design_build_deploy_test/" title="CI/CD Pipeline Design: Build-Deploy-Test">Part 2</a> of the series). The table below shows a summary of the environments and the three attributes.</p>
 
 <table>
     <tr>
@@ -502,6 +502,8 @@ described in Part 2 of the series). The table below shows a summary of the envir
     <a href="/blog/designing_a_hiring_strategy/" class="button big previous"><i class="fas fa-angle-left"></i> Designing a Hiring Strategy</a>
   
   
+    <a href="/blog/cicd_pipeline_design_build_deploy_test/" class="button big next">CI/CD Pipeline Design: Build-Deploy-Test <i class="fas fa-angle-right"></i></a>
+  
 </div>
 
 
@@ -511,6 +513,21 @@ described in Part 2 of the series). The table below shows a summary of the envir
     <header>
       <h1>Recent posts</h1>
     </header>
+    
+    <article class="mini-post">
+      <section>
+        
+<a href="/blog/cicd_pipeline_design_build_deploy_test/" class="image featured">
+  <img src="/img/2019/07/dials.jpg" alt="Pipeline Structure">
+</a>
+
+
+      </section>
+      <header>
+        <h1><a href="/blog/cicd_pipeline_design_build_deploy_test/">CI/CD Pipeline Design: Build-Deploy-Test</a></h1>
+        <time class="published" datetime="">July 24, 2019</time>
+      </header>
+    </article>
     
     <article class="mini-post">
       <section>
@@ -572,21 +589,6 @@ described in Part 2 of the series). The table below shows a summary of the envir
       </header>
     </article>
     
-    <article class="mini-post">
-      <section>
-        
-<a href="/blog/seeding_team_culture/" class="image featured">
-  <img src="/img/2019/06/team_culture.jpg" alt="Team Culture">
-</a>
-
-
-      </section>
-      <header>
-        <h1><a href="/blog/seeding_team_culture/">Evolving Team Culture</a></h1>
-        <time class="published" datetime="">June 24, 2019</time>
-      </header>
-    </article>
-    
     
       <a href="/blog/" class="button">See more</a>
     
@@ -605,12 +607,22 @@ described in Part 2 of the series). The table below shows a summary of the envir
           
           <li>
             
+              <a href="/categories/methodology/">methodology<span class="count">3</span></a>
+            
+          
+          <li>
+            
+              <a href="/categories/ci/cd/">ci/cd<span class="count">2</span></a>
+            
+          
+          <li>
+            
               <a href="/categories/culture/">culture<span class="count">2</span></a>
             
           
           <li>
             
-              <a href="/categories/methodology/">methodology<span class="count">2</span></a>
+              <a href="/categories/devops/">devops<span class="count">2</span></a>
             
           
           <li>
@@ -621,16 +633,6 @@ described in Part 2 of the series). The table below shows a summary of the envir
           <li>
             
               <a href="/categories/software-engineering/">software-engineering<span class="count">2</span></a>
-            
-          
-          <li>
-            
-              <a href="/categories/ci/cd/">ci/cd<span class="count">1</span></a>
-            
-          
-          <li>
-            
-              <a href="/categories/devops/">devops<span class="count">1</span></a>
             
           
           <li>
