@@ -6,10 +6,19 @@
     <description>Recent content in Blog on George Hadjiyiannis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 24 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Aug 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://ghadjiyiannis.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>CI/CD Pipeline Design: Putting it all together</title>
+      <link>https://ghadjiyiannis.github.io/blog/cicd_pipeline_design_putting_it_all_together/</link>
+      <pubDate>Wed, 07 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ghadjiyiannis.github.io/blog/cicd_pipeline_design_putting_it_all_together/</guid>
+      <description>This is the last part in our series on designing CI/CD pipelines. The first part of the series defined the objectives of the pipelines, and defined the stages that go with them. The second part covered in detail the core Build-Deploy-Test scripts, which together effectively implement all the necessary functionality. In this third and final part, we will cover how we put together all of the stages described in Part 1, by composing them using the blocks described in Part 2.</description>
+    </item>
     
     <item>
       <title>CI/CD Pipeline Design: Build-Deploy-Test</title>
