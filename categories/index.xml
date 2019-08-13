@@ -6,10 +6,28 @@
     <description>Recent content in Categories on George Hadjiyiannis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 07 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Aug 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://ghadjiyiannis.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Best Practice</title>
+      <link>https://ghadjiyiannis.github.io/categories/best-practice/</link>
+      <pubDate>Tue, 13 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ghadjiyiannis.github.io/categories/best-practice/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Testing</title>
+      <link>https://ghadjiyiannis.github.io/categories/testing/</link>
+      <pubDate>Tue, 13 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ghadjiyiannis.github.io/categories/testing/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>CI/CD</title>

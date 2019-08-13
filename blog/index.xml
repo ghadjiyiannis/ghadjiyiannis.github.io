@@ -6,10 +6,20 @@
     <description>Recent content in Blog on George Hadjiyiannis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 07 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Aug 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://ghadjiyiannis.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Test Automation as Documentation</title>
+      <link>https://ghadjiyiannis.github.io/blog/documentation_test_automation/</link>
+      <pubDate>Tue, 13 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ghadjiyiannis.github.io/blog/documentation_test_automation/</guid>
+      <description>How do you document units, modules, libraries, and APIs in your system, so that people know how to use them? Note that for the purposes of this discussion we are not referring to code comments, which are mainly directed at the team constructing and maintaining the module, but rather to client documentation for those who will use it.
+While there is general agreement in the field that modules, APIs, and systems should be documented, there is much less agreement on what form the documentation should take, and what level of documentation is enough.</description>
+    </item>
     
     <item>
       <title>CI/CD Pipeline Design: Putting it all together</title>
