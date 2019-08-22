@@ -6,10 +6,20 @@
     <description>Recent content in Blog on George Hadjiyiannis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 13 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Aug 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://ghadjiyiannis.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Understanding the cost of software</title>
+      <link>https://ghadjiyiannis.github.io/blog/understanding_the_cost_of_software/</link>
+      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ghadjiyiannis.github.io/blog/understanding_the_cost_of_software/</guid>
+      <description>The standard cliché in our industry is that software projects always take twice as long, and cost twice as much. Of the two factors, however, it&amp;rsquo;s the financial one that does the most damage. Usually, timing does little damage in itself, other than making a company run out of money.
+Without exaggeration, none of the companies I have worked with had a good understanding of how much a proposed software project would cost.</description>
+    </item>
     
     <item>
       <title>Test Automation as Documentation</title>
