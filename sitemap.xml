@@ -3,33 +3,43 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ghadjiyiannis.github.io/categories/architecture/</loc>
+    <lastmod>2019-08-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ghadjiyiannis.github.io/blog/</loc>
-    <lastmod>2019-08-21T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <lastmod>2019-08-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ghadjiyiannis.github.io/categories/</loc>
+    <lastmod>2019-08-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ghadjiyiannis.github.io/categories/data/</loc>
+    <lastmod>2019-08-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ghadjiyiannis.github.io/</loc>
+    <lastmod>2019-08-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ghadjiyiannis.github.io/blog/explicit_data_schemas/</loc>
+    <lastmod>2019-08-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://ghadjiyiannis.github.io/categories/business/</loc>
     <lastmod>2019-08-21T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ghadjiyiannis.github.io/categories/</loc>
-    <lastmod>2019-08-21T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ghadjiyiannis.github.io/categories/cost/</loc>
     <lastmod>2019-08-21T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ghadjiyiannis.github.io/</loc>
-    <lastmod>2019-08-21T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -40,7 +50,6 @@
   <url>
     <loc>https://ghadjiyiannis.github.io/categories/best-practice/</loc>
     <lastmod>2019-08-13T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -51,13 +60,11 @@
   <url>
     <loc>https://ghadjiyiannis.github.io/categories/testing/</loc>
     <lastmod>2019-08-13T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ghadjiyiannis.github.io/categories/ci/cd/</loc>
     <lastmod>2019-08-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -68,13 +75,11 @@
   <url>
     <loc>https://ghadjiyiannis.github.io/categories/devops/</loc>
     <lastmod>2019-08-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ghadjiyiannis.github.io/categories/methodology/</loc>
     <lastmod>2019-08-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -90,7 +95,6 @@
   <url>
     <loc>https://ghadjiyiannis.github.io/categories/culture/</loc>
     <lastmod>2019-07-09T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -101,19 +105,16 @@
   <url>
     <loc>https://ghadjiyiannis.github.io/categories/recruiting/</loc>
     <lastmod>2019-07-09T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ghadjiyiannis.github.io/categories/requirements/</loc>
     <lastmod>2019-07-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ghadjiyiannis.github.io/categories/software-engineering/</loc>
     <lastmod>2019-07-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -124,7 +125,6 @@
   <url>
     <loc>https://ghadjiyiannis.github.io/categories/innovation/</loc>
     <lastmod>2019-06-28T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -145,7 +145,6 @@
   <url>
     <loc>https://ghadjiyiannis.github.io/categories/lean/</loc>
     <lastmod>2019-06-06T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -166,13 +165,11 @@
   <url>
     <loc>https://ghadjiyiannis.github.io/categories/engineers/</loc>
     <lastmod>2019-06-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ghadjiyiannis.github.io/categories/general/</loc>
     <lastmod>2019-06-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -186,7 +183,6 @@
   
   <url>
     <loc>https://ghadjiyiannis.github.io/tags/</loc>
-    <priority>0</priority>
   </url>
   
 </urlset>

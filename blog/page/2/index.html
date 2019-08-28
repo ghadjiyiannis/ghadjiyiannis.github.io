@@ -8,9 +8,8 @@
 
 
 
-  <meta name="generator" content="Hugo 0.55.6" />
-  
-<meta itemprop="name" content="Blog">
+  <meta name="generator" content="Hugo 0.57.2" />
+  <meta itemprop="name" content="Blog">
 <meta itemprop="description" content="">
 
 
@@ -19,7 +18,7 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://ghadjiyiannis.github.io/blog/" />
 
-<meta property="og:updated_time" content="2019-08-21T00:00:00&#43;00:00"/>
+<meta property="og:updated_time" content="2019-08-28T00:00:00+00:00" />
 
   <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Blog"/>
@@ -192,6 +191,81 @@
   <header>
   <div class="title">
     
+        <h2><a href="/blog/cicd_pipeline_design_putting_it_all_together/">CI/CD Pipeline Design: Putting it all together</a></h2>
+    
+    
+        <p>How the full set of pipelines is composed from the basic building blocks, and some further optimizations.</p>
+    
+</div>
+  <div class="meta">
+    <time class="published" datetime="2019-08-07 00:00:00 &#43;0000 UTC">
+      August 7, 2019
+    </time>
+    <span class="author">George Hadjiyiannis</span>
+    
+        <p>20 minute read</p>
+    
+  </div>
+</header>
+
+  
+<a href="/blog/cicd_pipeline_design_putting_it_all_together/" class="image featured">
+  <img src="/img/2019/08/mechanism.jpg" alt="Pipeline Structure">
+</a>
+
+
+  
+  <p>This is the last part in our series on designing CI/CD pipelines. The <a href="/blog/cicd_pipeline_design_environments/" title="CI/CD Pipeline Design: The Stages">first part</a> of the series
+defined the objectives of the pipelines, and defined the stages that go with them. The <a href="/blog/cicd_pipeline_design_build_deploy_test/" title="CI/CD Pipeline Design: Build-Deploy-Test">second part</a>
+covered in detail the core Build-Deploy-Test scripts, which together effectively implement all the
+necessary functionality. In this third and final part, we will cover how we put together all of the
+stages described in <a href="/blog/cicd_pipeline_design_environments/" title="CI/CD Pipeline Design: The Stages">Part 1</a>, by composing them using the blocks described in <a href="/blog/cicd_pipeline_design_build_deploy_test/" title="CI/CD Pipeline Design: Build-Deploy-Test">Part 2</a>.
+We will also cover a&hellip;</p>
+  <footer>
+    <a href="/blog/cicd_pipeline_design_putting_it_all_together/" class="button big">Read more</a>
+    <ul class="stats">
+  
+    
+    
+      <li class="categories">
+        <ul>
+          
+            
+            <li><a class="article-category-link" href="https://ghadjiyiannis.github.io/categories/ci/cd">CI/CD</a></li>
+          
+            
+            <li><a class="article-category-link" href="https://ghadjiyiannis.github.io/categories/devops">DevOps</a></li>
+          
+            
+            <li><a class="article-category-link" href="https://ghadjiyiannis.github.io/categories/methodology">Methodology</a></li>
+          
+            
+            <li><a class="article-category-link" href="https://ghadjiyiannis.github.io/categories/best-practice">Best Practice</a></li>
+          
+            
+            <li><a class="article-category-link" href="https://ghadjiyiannis.github.io/categories/testing">Testing</a></li>
+          
+        </ul>
+      </li>
+    
+  
+  
+    <li class="tags">
+      <ul>
+        <li>None</li>
+      </ul>
+    </li>
+  
+</ul>
+
+  </footer>
+</article>
+
+        
+          <article class="post">
+  <header>
+  <div class="title">
+    
         <h2><a href="/blog/cicd_pipeline_design_build_deploy_test/">CI/CD Pipeline Design: Build-Deploy-Test</a></h2>
     
     
@@ -333,72 +407,6 @@ many effects that contribute to this:</p>
 </article>
 
         
-          <article class="post">
-  <header>
-  <div class="title">
-    
-        <h2><a href="/blog/designing_a_hiring_strategy/">Designing a Hiring Strategy</a></h2>
-    
-    
-        <p>How to improve your chances of getting the kind of people you need.</p>
-    
-</div>
-  <div class="meta">
-    <time class="published" datetime="2019-07-09 00:00:00 &#43;0000 UTC">
-      July 9, 2019
-    </time>
-    <span class="author">George Hadjiyiannis</span>
-    
-        <p>12 minute read</p>
-    
-  </div>
-</header>
-
-  
-<a href="/blog/designing_a_hiring_strategy/" class="image featured">
-  <img src="/img/2019/07/hiring.jpg" alt="Hiring">
-</a>
-
-
-  
-  <p>Let&rsquo;s face it: most of the companies out there (including most of the ones I worked for)
-hire opportunistically. They wait until they have a specific need, then quickly put together a
-job description, and publish the opening in the various channels that are readily accessible,
-hoping that they get a fit. Most of the time they can&rsquo;t find what they are looking for in
-a reasonable amount of time, and for the right salary. There&rsquo;s four options available at that
-point:</p>
-  <footer>
-    <a href="/blog/designing_a_hiring_strategy/" class="button big">Read more</a>
-    <ul class="stats">
-  
-    
-    
-      <li class="categories">
-        <ul>
-          
-            
-            <li><a class="article-category-link" href="https://ghadjiyiannis.github.io/categories/recruiting">Recruiting</a></li>
-          
-            
-            <li><a class="article-category-link" href="https://ghadjiyiannis.github.io/categories/culture">Culture</a></li>
-          
-        </ul>
-      </li>
-    
-  
-  
-    <li class="tags">
-      <ul>
-        <li>None</li>
-      </ul>
-    </li>
-  
-</ul>
-
-  </footer>
-</article>
-
-        
         
 <div class="pagination">
   
@@ -415,6 +423,21 @@ point:</p>
     <header>
       <h1>Recent posts</h1>
     </header>
+    
+    <article class="mini-post">
+      <section>
+        
+<a href="/blog/explicit_data_schemas/" class="image featured">
+  <img src="/img/2019/08/shapeless_building.jpg" alt="Shapeless Design">
+</a>
+
+
+      </section>
+      <header>
+        <h1><a href="/blog/explicit_data_schemas/">The case for explicit data schemas</a></h1>
+        <time class="published" datetime="">August 28, 2019</time>
+      </header>
+    </article>
     
     <article class="mini-post">
       <section>
@@ -476,21 +499,6 @@ point:</p>
       </header>
     </article>
     
-    <article class="mini-post">
-      <section>
-        
-<a href="/blog/cicd_pipeline_design_environments/" class="image featured">
-  <img src="/img/2019/07/health_check.jpg" alt="Health Check">
-</a>
-
-
-      </section>
-      <header>
-        <h1><a href="/blog/cicd_pipeline_design_environments/">CI/CD Pipeline Design: The Stages</a></h1>
-        <time class="published" datetime="">July 16, 2019</time>
-      </header>
-    </article>
-    
     
       <a href="/blog/" class="button">See more</a>
     
@@ -549,12 +557,22 @@ point:</p>
           
           <li>
             
+              <a href="/categories/architecture/">architecture<span class="count">1</span></a>
+            
+          
+          <li>
+            
               <a href="/categories/business/">business<span class="count">1</span></a>
             
           
           <li>
             
               <a href="/categories/cost/">cost<span class="count">1</span></a>
+            
+          
+          <li>
+            
+              <a href="/categories/data/">data<span class="count">1</span></a>
             
           
           <li>
