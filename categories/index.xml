@@ -6,10 +6,37 @@
     <description>Recent content in Categories on George Hadjiyiannis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 28 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Sep 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://ghadjiyiannis.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Agile</title>
+      <link>https://ghadjiyiannis.github.io/categories/agile/</link>
+      <pubDate>Fri, 06 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ghadjiyiannis.github.io/categories/agile/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Best Practice</title>
+      <link>https://ghadjiyiannis.github.io/categories/best-practice/</link>
+      <pubDate>Fri, 06 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ghadjiyiannis.github.io/categories/best-practice/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>methodology</title>
+      <link>https://ghadjiyiannis.github.io/categories/methodology/</link>
+      <pubDate>Fri, 06 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ghadjiyiannis.github.io/categories/methodology/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Architecture</title>
@@ -48,15 +75,6 @@
     </item>
     
     <item>
-      <title>Best Practice</title>
-      <link>https://ghadjiyiannis.github.io/categories/best-practice/</link>
-      <pubDate>Tue, 13 Aug 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://ghadjiyiannis.github.io/categories/best-practice/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Testing</title>
       <link>https://ghadjiyiannis.github.io/categories/testing/</link>
       <pubDate>Tue, 13 Aug 2019 00:00:00 +0000</pubDate>
@@ -80,15 +98,6 @@
       <pubDate>Wed, 07 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>https://ghadjiyiannis.github.io/categories/devops/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Methodology</title>
-      <link>https://ghadjiyiannis.github.io/categories/methodology/</link>
-      <pubDate>Wed, 07 Aug 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://ghadjiyiannis.github.io/categories/methodology/</guid>
       <description></description>
     </item>
     
