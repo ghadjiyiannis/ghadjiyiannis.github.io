@@ -6,10 +6,19 @@
     <description>Recent content in methodology on George Hadjiyiannis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 06 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Sep 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://ghadjiyiannis.github.io/categories/methodology/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Making near-shoring and off-shoring effective.</title>
+      <link>https://ghadjiyiannis.github.io/blog/effective_nearshoring_offshoring/</link>
+      <pubDate>Wed, 18 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ghadjiyiannis.github.io/blog/effective_nearshoring_offshoring/</guid>
+      <description>It seems that everywhere you look, companies are looking to create near-shore and off-shore partnerships, to increase their software development capacity and reduce costs. Interestingly, this is not limited to large companies; more and more SMEs are joining in. At the same time, we now have over a decade of experience with this topic in the industry, and have learned some hard-earned lessons. It seems not that long ago that companies were pulling back from off-shoring due to a significant number of challenges in making the partnerships effective.</description>
+    </item>
     
     <item>
       <title>The shortcomings of Agile</title>

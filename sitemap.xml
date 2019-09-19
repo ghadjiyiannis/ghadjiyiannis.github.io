@@ -3,27 +3,47 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ghadjiyiannis.github.io/blog/</loc>
+    <lastmod>2019-09-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ghadjiyiannis.github.io/categories/business/</loc>
+    <lastmod>2019-09-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ghadjiyiannis.github.io/categories/</loc>
+    <lastmod>2019-09-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ghadjiyiannis.github.io/categories/general/</loc>
+    <lastmod>2019-09-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ghadjiyiannis.github.io/</loc>
+    <lastmod>2019-09-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ghadjiyiannis.github.io/blog/effective_nearshoring_offshoring/</loc>
+    <lastmod>2019-09-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ghadjiyiannis.github.io/categories/methodology/</loc>
+    <lastmod>2019-09-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ghadjiyiannis.github.io/categories/architecture/</loc>
     <lastmod>2019-09-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ghadjiyiannis.github.io/blog/</loc>
-    <lastmod>2019-09-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ghadjiyiannis.github.io/categories/</loc>
-    <lastmod>2019-09-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://ghadjiyiannis.github.io/blog/choosing_technologies/</loc>
-    <lastmod>2019-09-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ghadjiyiannis.github.io/</loc>
     <lastmod>2019-09-11T00:00:00+00:00</lastmod>
   </url>
   
@@ -43,11 +63,6 @@
   </url>
   
   <url>
-    <loc>https://ghadjiyiannis.github.io/categories/methodology/</loc>
-    <lastmod>2019-09-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://ghadjiyiannis.github.io/blog/shortcomings_of_agile/</loc>
     <lastmod>2019-09-06T00:00:00+00:00</lastmod>
   </url>
@@ -60,11 +75,6 @@
   <url>
     <loc>https://ghadjiyiannis.github.io/blog/explicit_data_schemas/</loc>
     <lastmod>2019-08-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ghadjiyiannis.github.io/categories/business/</loc>
-    <lastmod>2019-08-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -184,11 +194,6 @@
   
   <url>
     <loc>https://ghadjiyiannis.github.io/categories/engineers/</loc>
-    <lastmod>2019-06-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ghadjiyiannis.github.io/categories/general/</loc>
     <lastmod>2019-06-03T00:00:00+00:00</lastmod>
   </url>
   
