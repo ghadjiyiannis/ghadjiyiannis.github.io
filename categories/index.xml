@@ -6,10 +6,46 @@
     <description>Recent content in Categories on George Hadjiyiannis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 18 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Sep 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://ghadjiyiannis.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Collaboration</title>
+      <link>https://ghadjiyiannis.github.io/categories/collaboration/</link>
+      <pubDate>Tue, 24 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ghadjiyiannis.github.io/categories/collaboration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Culture</title>
+      <link>https://ghadjiyiannis.github.io/categories/culture/</link>
+      <pubDate>Tue, 24 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ghadjiyiannis.github.io/categories/culture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Software Engineering</title>
+      <link>https://ghadjiyiannis.github.io/categories/software-engineering/</link>
+      <pubDate>Tue, 24 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ghadjiyiannis.github.io/categories/software-engineering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Teamwork</title>
+      <link>https://ghadjiyiannis.github.io/categories/teamwork/</link>
+      <pubDate>Tue, 24 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ghadjiyiannis.github.io/categories/teamwork/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Business</title>
@@ -21,7 +57,7 @@
     </item>
     
     <item>
-      <title>General</title>
+      <title>general</title>
       <link>https://ghadjiyiannis.github.io/categories/general/</link>
       <pubDate>Wed, 18 Sep 2019 00:00:00 +0000</pubDate>
       
@@ -120,15 +156,6 @@
     </item>
     
     <item>
-      <title>Culture</title>
-      <link>https://ghadjiyiannis.github.io/categories/culture/</link>
-      <pubDate>Tue, 09 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://ghadjiyiannis.github.io/categories/culture/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Recruiting</title>
       <link>https://ghadjiyiannis.github.io/categories/recruiting/</link>
       <pubDate>Tue, 09 Jul 2019 00:00:00 +0000</pubDate>
@@ -143,15 +170,6 @@
       <pubDate>Tue, 02 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>https://ghadjiyiannis.github.io/categories/requirements/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Software Engineering</title>
-      <link>https://ghadjiyiannis.github.io/categories/software-engineering/</link>
-      <pubDate>Tue, 02 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://ghadjiyiannis.github.io/categories/software-engineering/</guid>
       <description></description>
     </item>
     
