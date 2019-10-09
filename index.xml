@@ -6,10 +6,19 @@
     <description>Recent content on George Hadjiyiannis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 02 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 08 Oct 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://ghadjiyiannis.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>A different kind of company growth</title>
+      <link>https://ghadjiyiannis.github.io/blog/a_different_kind_of_company_growth/</link>
+      <pubDate>Tue, 08 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ghadjiyiannis.github.io/blog/a_different_kind_of_company_growth/</guid>
+      <description>These days I find myself in regular discussions about company growth, primarily with startups that are getting traction and now need to step up to the next level. The discussions typically cover all the usual scaling topics, but until recently pretty much ended there. About 2 weeks ago, however, I had once more such a discussion, but this one went beyond the scaling challenges, and moved on to a different kind of growth: maturity.</description>
+    </item>
     
     <item>
       <title>How to (really) build customer centric products</title>
