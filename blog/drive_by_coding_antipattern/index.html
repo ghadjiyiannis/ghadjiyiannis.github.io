@@ -298,9 +298,9 @@ developer might modify the code from</p>
 <p>to</p>
 
 <pre><code class="language-java">	if (exceptional_condition)
-		instance.do_X();
-	else
 		instance.do_modifiedX();
+	else
+		instance.do_X();
 </code></pre>
 
 <p>with the methods <code>do_X()</code> and <code>do_modifiedX()</code> being quite far from the conditional, possibly in an entirely different
