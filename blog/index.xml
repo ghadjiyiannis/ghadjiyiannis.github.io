@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on George Hadjiyiannis</title>
@@ -6,10 +6,19 @@
     <description>Recent content in Blog on George Hadjiyiannis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 30 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://ghadjiyiannis.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Rewarding the innovators</title>
+      <link>https://ghadjiyiannis.github.io/blog/rewarding_the_innovators/</link>
+      <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ghadjiyiannis.github.io/blog/rewarding_the_innovators/</guid>
+      <description>A few years back I was attending the yearly strategy workshop of my employer at the time, along with all my other colleagues. We were divided into groups of six to nine people and tasked with, among other things, coming up with an approach to enable innovation within the company. One of the people in the group I was in, relayed his story of why he left his previous employer, the local telecom giant, over the same thing.</description>
+    </item>
     
     <item>
       <title>The drive-by coding anti-pattern</title>
@@ -17,7 +26,7 @@
       <pubDate>Wed, 30 Oct 2019 00:00:00 +0000</pubDate>
       
       <guid>https://ghadjiyiannis.github.io/blog/drive_by_coding_antipattern/</guid>
-      <description>I am not sure why, but out of the set of all anti-patterns, drive-by coding is the one I am personally most disturbed by. Perhaps that&amp;rsquo;s because it&amp;rsquo;s so unnecessary. Perhaps because it&amp;rsquo;s indicative of laziness on behalf of the developer. Perhaps because it is, itself, a smell of much more serious cultural issues. For exactly this last reason, if not for any other, I feel very strongly that this particular anti-pattern should be uprooted mercilessly whenever noticed, before it becomes endemic and destroys both the health of the code-base, as well as the culture of the team.</description>
+      <description>I am not sure why, but out of the set of all anti-patterns, drive-by coding is the one I am personally most disturbed by. Perhaps that&#39;s because it&#39;s so unnecessary. Perhaps because it&#39;s indicative of laziness on behalf of the developer. Perhaps because it is, itself, a smell of much more serious cultural issues. For exactly this last reason, if not for any other, I feel very strongly that this particular anti-pattern should be uprooted mercilessly whenever noticed, before it becomes endemic and destroys both the health of the code-base, as well as the culture of the team.</description>
     </item>
     
     <item>
@@ -98,7 +107,7 @@
       <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>https://ghadjiyiannis.github.io/blog/understanding_the_cost_of_software/</guid>
-      <description>The standard cliché in our industry is that software projects always take twice as long, and cost twice as much. Of the two factors, however, it&amp;rsquo;s the financial one that does the most damage. Usually, timing does little damage in itself, other than making a company run out of money.
+      <description>The standard cliché in our industry is that software projects always take twice as long, and cost twice as much. Of the two factors, however, it&#39;s the financial one that does the most damage. Usually, timing does little damage in itself, other than making a company run out of money.
 Without exaggeration, none of the companies I have worked with had a good understanding of how much a proposed software project would cost.</description>
     </item>
     
@@ -146,7 +155,7 @@ While there is general agreement in the field that modules, APIs, and systems sh
       <pubDate>Tue, 09 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>https://ghadjiyiannis.github.io/blog/designing_a_hiring_strategy/</guid>
-      <description>Let&amp;rsquo;s face it: most of the companies out there (including most of the ones I worked for) hire opportunistically. They wait until they have a specific need, then quickly put together a job description, and publish the opening in the various channels that are readily accessible, hoping that they get a fit. Most of the time they can&amp;rsquo;t find what they are looking for in a reasonable amount of time, and for the right salary.</description>
+      <description>Let&#39;s face it: most of the companies out there (including most of the ones I worked for) hire opportunistically. They wait until they have a specific need, then quickly put together a job description, and publish the opening in the various channels that are readily accessible, hoping that they get a fit. Most of the time they can&#39;t find what they are looking for in a reasonable amount of time, and for the right salary.</description>
     </item>
     
     <item>
@@ -155,7 +164,7 @@ While there is general agreement in the field that modules, APIs, and systems sh
       <pubDate>Tue, 02 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>https://ghadjiyiannis.github.io/blog/software_is_hard_implicit_requirements/</guid>
-      <description>Every professional in the software industry knows that building software is a highly unpredictable business. This is why we don&amp;rsquo;t like the question of &amp;ldquo;How long is it going to take?&amp;rdquo;. The thing that always puzzled me, however, is that that unpredictability always seems to point in the wrong direction: software seems to almost always take longer to build than expected. With practically any other process, one would expect something similar to a normal (binomial) distribution around the expected estimate.</description>
+      <description>Every professional in the software industry knows that building software is a highly unpredictable business. This is why we don&#39;t like the question of &amp;ldquo;How long is it going to take?&amp;quot;. The thing that always puzzled me, however, is that that unpredictability always seems to point in the wrong direction: software seems to almost always take longer to build than expected. With practically any other process, one would expect something similar to a normal (binomial) distribution around the expected estimate.</description>
     </item>
     
     <item>
@@ -164,7 +173,7 @@ While there is general agreement in the field that modules, APIs, and systems sh
       <pubDate>Fri, 28 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://ghadjiyiannis.github.io/blog/execution_in_innovation/</guid>
-      <description>We are by now used to the idea of a light bulb being the universal icon for innovation. This is, of course, a tribute to Thomas Edison&amp;rsquo;s most well-known invention, but not by any means the only one. Edison was one of the most prolific inventors in history, with a list of over 1000 patents bearing his name. The light bulb icon is still used to represent the act of generating ideas, and by extension the act of innovation.</description>
+      <description>We are by now used to the idea of a light bulb being the universal icon for innovation. This is, of course, a tribute to Thomas Edison&#39;s most well-known invention, but not by any means the only one. Edison was one of the most prolific inventors in history, with a list of over 1000 patents bearing his name. The light bulb icon is still used to represent the act of generating ideas, and by extension the act of innovation.</description>
     </item>
     
     <item>
@@ -204,7 +213,7 @@ The main problem with this pattern is that, sooner or later, people end up apply
       <pubDate>Mon, 03 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://ghadjiyiannis.github.io/blog/developer_vs_engineer/</guid>
-      <description>A long time ago, I was in Barcelona attending an API workshop with our teams there. On the second day of the workshop, the discussion got a bit sidetracked, but it was one of those sidetracks that leads to insights that are more valuable than the main theme of the workshop. I remember the group CTO at the time declaring &amp;ldquo;Developers write code, Software Engineers solve problems!&amp;rdquo;. For some reason it struck me as such a profound statement, that I still remember it to this day as the main idea of value I got that day.</description>
+      <description>A long time ago, I was in Barcelona attending an API workshop with our teams there. On the second day of the workshop, the discussion got a bit sidetracked, but it was one of those sidetracks that leads to insights that are more valuable than the main theme of the workshop. I remember the group CTO at the time declaring &amp;ldquo;Developers write code, Software Engineers solve problems!&amp;quot;. For some reason it struck me as such a profound statement, that I still remember it to this day as the main idea of value I got that day.</description>
     </item>
     
     <item>

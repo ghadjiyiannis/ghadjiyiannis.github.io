@@ -1,6 +1,41 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://ghadjiyiannis.github.io/blog/</loc>
+    <lastmod>2020-01-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ghadjiyiannis.github.io/categories/</loc>
+    <lastmod>2020-01-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ghadjiyiannis.github.io/categories/culture/</loc>
+    <lastmod>2020-01-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ghadjiyiannis.github.io/</loc>
+    <lastmod>2020-01-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ghadjiyiannis.github.io/categories/innovation/</loc>
+    <lastmod>2020-01-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ghadjiyiannis.github.io/blog/rewarding_the_innovators/</loc>
+    <lastmod>2020-01-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ghadjiyiannis.github.io/categories/strategy/</loc>
+    <lastmod>2020-01-20T00:00:00+00:00</lastmod>
+  </url>
   
   <url>
     <loc>https://ghadjiyiannis.github.io/categories/anti-patterns/</loc>
@@ -9,21 +44,6 @@
   
   <url>
     <loc>https://ghadjiyiannis.github.io/categories/best-practice/</loc>
-    <lastmod>2019-10-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ghadjiyiannis.github.io/blog/</loc>
-    <lastmod>2019-10-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ghadjiyiannis.github.io/categories/</loc>
-    <lastmod>2019-10-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ghadjiyiannis.github.io/</loc>
     <lastmod>2019-10-30T00:00:00+00:00</lastmod>
   </url>
   
@@ -38,22 +58,12 @@
   </url>
   
   <url>
-    <loc>https://ghadjiyiannis.github.io/categories/culture/</loc>
-    <lastmod>2019-10-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://ghadjiyiannis.github.io/blog/culture_eats_strategy_for_breakfast/</loc>
     <lastmod>2019-10-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://ghadjiyiannis.github.io/categories/general/</loc>
-    <lastmod>2019-10-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ghadjiyiannis.github.io/categories/strategy/</loc>
     <lastmod>2019-10-23T00:00:00+00:00</lastmod>
   </url>
   
@@ -200,11 +210,6 @@
   <url>
     <loc>https://ghadjiyiannis.github.io/blog/software_is_hard_implicit_requirements/</loc>
     <lastmod>2019-07-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ghadjiyiannis.github.io/categories/innovation/</loc>
-    <lastmod>2019-06-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>

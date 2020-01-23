@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Innovation on George Hadjiyiannis</title>
@@ -6,10 +6,19 @@
     <description>Recent content in Innovation on George Hadjiyiannis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 28 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://ghadjiyiannis.github.io/categories/innovation/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Rewarding the innovators</title>
+      <link>https://ghadjiyiannis.github.io/blog/rewarding_the_innovators/</link>
+      <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ghadjiyiannis.github.io/blog/rewarding_the_innovators/</guid>
+      <description>A few years back I was attending the yearly strategy workshop of my employer at the time, along with all my other colleagues. We were divided into groups of six to nine people and tasked with, among other things, coming up with an approach to enable innovation within the company. One of the people in the group I was in, relayed his story of why he left his previous employer, the local telecom giant, over the same thing.</description>
+    </item>
     
     <item>
       <title>The role of execution in innovation</title>
@@ -17,7 +26,7 @@
       <pubDate>Fri, 28 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://ghadjiyiannis.github.io/blog/execution_in_innovation/</guid>
-      <description>We are by now used to the idea of a light bulb being the universal icon for innovation. This is, of course, a tribute to Thomas Edison&amp;rsquo;s most well-known invention, but not by any means the only one. Edison was one of the most prolific inventors in history, with a list of over 1000 patents bearing his name. The light bulb icon is still used to represent the act of generating ideas, and by extension the act of innovation.</description>
+      <description>We are by now used to the idea of a light bulb being the universal icon for innovation. This is, of course, a tribute to Thomas Edison&#39;s most well-known invention, but not by any means the only one. Edison was one of the most prolific inventors in history, with a list of over 1000 patents bearing his name. The light bulb icon is still used to represent the act of generating ideas, and by extension the act of innovation.</description>
     </item>
     
   </channel>

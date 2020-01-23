@@ -3,16 +3,13 @@
   <head>
   <meta charset="utf-8">
 <title>Software is hard - Part 1: Scaling - George Hadjiyiannis</title>
-<meta name="description" content="Building software at scale is no longer about writing code.">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
 
-  <meta name="generator" content="Hugo 0.57.2" />
+  <meta name="generator" content="Hugo 0.62.2" />
   <meta itemprop="name" content="Software is hard - Part 1: Scaling">
 <meta itemprop="description" content="Building software at scale is no longer about writing code.">
-
-
 <meta itemprop="datePublished" content="2019-06-13T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2019-06-13T00:00:00&#43;00:00" />
 <meta itemprop="wordCount" content="1402">
@@ -20,7 +17,6 @@
 
 
 <meta itemprop="keywords" content="" />
-
   <meta property="og:title" content="Software is hard - Part 1: Scaling" />
 <meta property="og:description" content="Building software at scale is no longer about writing code." />
 <meta property="og:type" content="article" />
@@ -40,17 +36,19 @@
     
       <link rel="stylesheet" href="/css/normalize.css">
       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800,900|Source+Sans+Pro:400,700">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/css/flag-icon.min.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css">
-      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" integrity="sha384-i1LQnF23gykqWXg6jxC2ZbCbUMxyw5gLZY6UiUS98LYV5unm8GWmfkIS6jqJfb4E" crossorigin="anonymous">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
-      <link rel="stylesheet" href="/css/main.min.css">
+      
+      
+      <link rel="stylesheet" href="/css/main.min.d602d62b6496c56add39765898b5706c3f43332845c14fdd0dbce172ced15a79.css" integrity="sha256-1gLWK2SWxWrdOXZYmLVwbD9DMyhFwU/dDbzhcs7RWnk=">
       <link rel="stylesheet" href="/css/add-on.css">
     
   
   
   
   
+    
   
 </head>
 
@@ -69,15 +67,30 @@
     </h1>
     <menu id="site-nav-menu" class="flyout-menu">
       
-        <a href="/" class="link"><i class="fas fa-home">&nbsp;</i>Home</a>
+        
+          
+          <a href="/" class="link"><i class="fas fa-home">&nbsp;</i>Home</a>
+        
       
-        <a href="/about/" class="link"><i class="far fa-id-card">&nbsp;</i>About</a>
+        
+          
+          <a href="/about/" class="link"><i class="far fa-id-card">&nbsp;</i>About</a>
+        
       
-        <a href="/blog/" class="link"><i class="far fa-newspaper">&nbsp;</i>Blog</a>
+        
+          
+          <a href="/blog/" class="link"><i class="far fa-newspaper">&nbsp;</i>Blog</a>
+        
       
-        <a href="/categories/" class="link"><i class="fas fa-sitemap">&nbsp;</i>Categories</a>
+        
+          
+          <a href="/categories/" class="link"><i class="fas fa-sitemap">&nbsp;</i>Categories</a>
+        
       
-        <a href="/contact/" class="link"><i class="far fa-envelope">&nbsp;</i>Contact</a>
+        
+          
+          <a href="/contact/" class="link"><i class="far fa-envelope">&nbsp;</i>Contact</a>
+        
       
       <a href="#share-menu" class="share-toggle"><i class="fas fa-share-alt">&nbsp;</i>Share</a>
       
@@ -97,8 +110,10 @@
 
 
 
+
   
-    <a href="//twitter.com/share?url=https%3a%2f%2fghadjiyiannis.github.io%2fblog%2fsoftware_is_hard_scaling%2f&amp;text=Software%20is%20hard%20-%20Part%201%3a%20Scaling&amp" target="_blank" rel="noopener" class="share-btn twitter">
+    
+    <a href="//twitter.com/share?text=Software%20is%20hard%20-%20Part%201%3a%20Scaling&amp;url=https%3a%2f%2fghadjiyiannis.github.io%2fblog%2fsoftware_is_hard_scaling%2f" target="_blank" rel="noopener" class="share-btn twitter">
         <i class="fab fa-twitter"></i><p>&nbsp;Twitter</p>
       </a>
   
@@ -110,7 +125,7 @@
   
 
   
-    <a href="//reddit.com/submit?url=https%3a%2f%2fghadjiyiannis.github.io%2fblog%2fsoftware_is_hard_scaling%2f&amp;title=Software%20is%20hard%20-%20Part%201%3a%20Scaling" target="_blank" rel="noopener" class="share-btn reddit">
+    <a href="//www.reddit.com/submit?url=https%3a%2f%2fghadjiyiannis.github.io%2fblog%2fsoftware_is_hard_scaling%2f&amp;title=Software%20is%20hard%20-%20Part%201%3a%20Scaling" target="_blank" rel="noopener" class="share-btn reddit">
           <i class="fab fa-reddit-alien"></i><p>&nbsp;Reddit</p>
         </a>
   
@@ -122,7 +137,7 @@
   
 
   
-        <a href="mailto:?subject=Check out this post by %7b%20%20%20%20%20%20%20%20map%5b%5d%7d&amp;body=https%3a%2f%2fghadjiyiannis.github.io%2fblog%2fsoftware_is_hard_scaling%2f" target="_blank" class="share-btn email">
+        <a href="mailto:?subject=Check out this post by George%20Hadjiyiannis&amp;body=https%3a%2f%2fghadjiyiannis.github.io%2fblog%2fsoftware_is_hard_scaling%2f" target="_blank" class="share-btn email" data-proofer-ignore>
           <i class="fas fa-envelope"></i><p>&nbsp;Email</p>
         </a>
   
@@ -143,7 +158,7 @@
   </main>
   
     <footer>
-      <ul class="social-icons">
+      <ul class="socnet-icons">
         
 
         <li><a href="//github.com/ghadjiyiannis" target="_blank" rel="noopener" title="GitHub" class="fab fa-github"></a></li>
@@ -162,6 +177,8 @@
 
 
 <li><a href="//xing.com/profile/George_Hadjiyiannis" target="_blank" rel="noopener" title="Xing" class="fab fa-xing"></a></li>
+
+
 
 
 
@@ -207,18 +224,20 @@
     </time>
     <span class="author">George Hadjiyiannis</span>
     
-        <p>7 minute read</p>
+      <p>7 minutes read</p>
     
   </div>
 </header>
 
-  <section id="social-share">
+  <section id="socnet-share">
     
 
 
 
+
   
-    <a href="//twitter.com/share?url=https%3a%2f%2fghadjiyiannis.github.io%2fblog%2fsoftware_is_hard_scaling%2f&amp;text=Software%20is%20hard%20-%20Part%201%3a%20Scaling&amp" target="_blank" rel="noopener" class="share-btn twitter">
+    
+    <a href="//twitter.com/share?text=Software%20is%20hard%20-%20Part%201%3a%20Scaling&amp;url=https%3a%2f%2fghadjiyiannis.github.io%2fblog%2fsoftware_is_hard_scaling%2f" target="_blank" rel="noopener" class="share-btn twitter">
         <i class="fab fa-twitter"></i><p>&nbsp;Twitter</p>
       </a>
   
@@ -230,7 +249,7 @@
   
 
   
-    <a href="//reddit.com/submit?url=https%3a%2f%2fghadjiyiannis.github.io%2fblog%2fsoftware_is_hard_scaling%2f&amp;title=Software%20is%20hard%20-%20Part%201%3a%20Scaling" target="_blank" rel="noopener" class="share-btn reddit">
+    <a href="//www.reddit.com/submit?url=https%3a%2f%2fghadjiyiannis.github.io%2fblog%2fsoftware_is_hard_scaling%2f&amp;title=Software%20is%20hard%20-%20Part%201%3a%20Scaling" target="_blank" rel="noopener" class="share-btn reddit">
           <i class="fab fa-reddit-alien"></i><p>&nbsp;Reddit</p>
         </a>
   
@@ -242,7 +261,7 @@
   
 
   
-        <a href="mailto:?subject=Check out this post by %7b%20%20%20%20%20%20%20%20map%5b%5d%7d&amp;body=https%3a%2f%2fghadjiyiannis.github.io%2fblog%2fsoftware_is_hard_scaling%2f" target="_blank" class="share-btn email">
+        <a href="mailto:?subject=Check out this post by George%20Hadjiyiannis&amp;body=https%3a%2f%2fghadjiyiannis.github.io%2fblog%2fsoftware_is_hard_scaling%2f" target="_blank" class="share-btn email" data-proofer-ignore>
           <i class="fas fa-envelope"></i><p>&nbsp;Email</p>
         </a>
   
@@ -250,58 +269,42 @@
 
   </section>
   
-<a href="/blog/software_is_hard_scaling/" class="image featured">
-  <img src="/img/2019/06/people_crowd.jpg" alt="Crowd">
-</a>
+  <a href="/blog/software_is_hard_scaling/" class="image featured">
+    <img src="/img/2019/06/people_crowd.jpg" alt="Crowd">
+  </a>
 
 
   <div class="content">
     <p>A long time ago, when I was still in college, I was fortunate enough to take a Software Engineering class by
 <a href="https://people.csail.mit.edu/guttag/" title="Prof. John Guttag">Prof. John Guttag</a>. I remember him starting one of the lectures with the question:</p>
-
 <p>&ldquo;Can anyone here write a 10,000 LOC program in a year?&rdquo;</p>
-
 <p>A large portion of the class raised their hands (this <em>is</em> MIT, after all). He then proceeded to ask:</p>
-
 <p>&ldquo;Can anyone here write a 100,000 LOC program in ten years?&rdquo;</p>
-
 <p>Almost all the same students raised their hands. Prof. Guttag then drove it home:</p>
-
 <p>&ldquo;Can anyone here write a 1,000,000 LOC program?&rdquo;</p>
-
 <p>That had the (apparently) desired effect: stunned silence. He proceeded to ask:</p>
-
 <p>&ldquo;How do you put put together a 1,000,000 LOC program in 3 years?&rdquo;</p>
-
 <p>Someone timidly said: &ldquo;You get 33 developers&hellip;&rdquo; but we all knew it would not be as simple as that.</p>
-
-<p>&ldquo;Well, 33 developers could probably do it if all they did was code. But now they can&rsquo;t afford to do just
+<p>&ldquo;Well, 33 developers could probably do it if all they did was code. But now they can't afford to do just
 that - they need to coordinate. Specify the interfaces between the pieces; make sure they are coordinating
 schedules so that the modules that interact are available in the same time-frame to be tested together,
 performing the joint tests, debugging the results and coming up with fixes that impact both components&hellip;
-You now have a significant communication overhead don&rsquo;t you? So you definitely need more than 33 developers.
+You now have a significant communication overhead don't you? So you definitely need more than 33 developers.
 Perhaps if you had 44&hellip;&rdquo;</p>
-
 <p>&ldquo;What about a 10,000,000 LOC program? Can you do that with 440 developers?&rdquo;</p>
-
 <p>Silence. By now we were beginning to see the hard truth&hellip;</p>
-
 <p>&ldquo;Well, how does the communication overhead grow with the number of people?&rdquo;</p>
-
 <p>&ldquo;Order n squared&rdquo; said someone&hellip;</p>
-
 <p>And there was the hard truth in full glory: writing code scales quite badly. And just in case you think
 that 10 MLOC is a theoretical concept of little more than academic concern, it is worth keeping in mind
 that <a href="https://en.wikipedia.org/wiki/Source_lines_of_code" title="Line of Code in common software">Debian has been breaking the 100 MLOC barrier ever since 2002</a>.</p>
-
-<p>Instinctively, software engineers know that you can&rsquo;t write large pieces of software as fast as small ones
+<p>Instinctively, software engineers know that you can't write large pieces of software as fast as small ones
 just by adding people to the team. What is less obvious though, is that as the scale increases, the nature
 of the challenge changes: there is a tipping point where the significance of the technical challenges of the
 work are completely overwhelmed by the extreme need to manage the communication and coordination overhead.
 At that point, managing software teams turns from an engineering exercise to an organizational and
 people management exercise. And that tipping point can come surprisingly quickly - even as low as 40-50
 people depending on the structure of the teams.</p>
-
 <p>We have various tools to mitigate this effect. First of all, we often use architecture to minimize the
 need for communication and coordination. To a degree, this is one of the major advantages of the move
 to microservices: hide the dependencies behind a narrow, slowly-changing API and communication between the
@@ -310,19 +313,17 @@ to mainly the definition of the API. Encapsulate the functionality behind the AP
 deployable service, and you can reduce the coordination overhead as well. If it so happens that communication
 with the team that implemented the service is no longer possible (perhaps because of the loss of key people),
 one could even consider replacing the entire implementation of the service.</p>
-
 <p>Another tool is organizational structure. This is the main reason behind the famous Bezos Two-Pizza Rule. Also
-the key reason behind keeping Agile teams around 7 people - keep the team size small and you will keep under control the
+the key reason behind keeping Agile teams around 7 people - keep the team size small and you will keep under control the 
 communication overhead <em>within</em> the team. Note, however, that this increases the coordination overhead
 <em>between</em> teams, as there are now more of them. Inevitably, this manifests in the organizational and
-process side of the equation, so we get things like <a href="https://www.agilealliance.org/glossary/scrum-of-scrums/" title="Scrum of Scrums">Scrum of Scrums</a>, or
+process side of the equation, so we get things like <a href="https://www.agilealliance.org/glossary/scrum-of-scrums/" title="Scrum of Scrums">Scrum of Scrums</a>, or 
 <a href="https://www.scaledagileframework.com/" title="Scaled Agile Framework">SAFe (Scaled Agile Framework)</a>. At the end of the day, however, this need to manage the overhead
 cannot be avoided; it is an inherent part of the system. Note how quickly we went from talking about coding
 to worrying about organizations - this happens even at the scale of a few teams. It is also worth keeping
 in mind that, realistically, neither Scrum-of-Scrums nor SAFe are viable when you are dealing with organizations
 spanning thousands of developers and hundreds of teams. Yet such organizations are quite common (and quite
 necessary).</p>
-
 <p>I would generally classify the effects that the architectural and organizational measures above try to solve,
 as first order effects. There are, however, a whole slew of second order effects. First and foremost is the
 issue of autonomy versus synergies. I will attempt to illustrate using the example of build pipelines, but
@@ -338,7 +339,6 @@ coordination overhead you need to worry about, and more often that not, it is th
 Pretty soon you start talking about guilds, Centers of Competence, and all sorts of other organizational
 structures, whose main function is simply to manage this coordination. Once again, managing the overall
 organization becomes less about technology and engineering, and more about managing the coordination overhead.</p>
-
 <p>Another second-order effect is inter-team dynamics. While maintaining a reasonable level of collaboration
 within the team is not very taxing, the looser bond between teams means that collaboration between teams
 needs a lot more work to get right. In an environment where there are significant pressures from the outside,
@@ -354,7 +354,6 @@ multiple teams soon comes to represent a very significant communication and coor
 how much money and energy is being spent on improving the working relationships between teams: off-sites,
 hackathons, team events, travel to other sites, not to mention the amount of management bandwidth that is
 devoted to this, and it soon becomes obvious that this is a major overhead indeed.</p>
-
 <p>To conclude, we ended up talking about every-day practices that are extremely common in the industry,
 and instantly recognizable, yet most of them have only a glancing relationship to technology, and are all fundamentally
 trying to deal with the communication and coordination overhead of large teams. I believe that, beyond a
@@ -392,106 +391,106 @@ all about managing the people aspect of software teams rather than the technolog
 
   </footer>
 </article>
-<article class="post">
-  
 
-</article>
+
 <div class="pagination">
   
-    <a href="/blog/when_lean_works_against_you/" class="button big previous"><i class="fas fa-angle-left"></i> When Lean works against you</a>
+    <a href="/blog/when_lean_works_against_you/" class="button"><div class="previous"><div>When Lean works against you</div></div></a>
   
   
-    <a href="/blog/seeding_team_culture/" class="button big next">Evolving Team Culture <i class="fas fa-angle-right"></i></a>
+    <a href="/blog/seeding_team_culture/" class="button"><div class="next"><div>Evolving Team Culture</div></div></a>
   
 </div>
 
 
       </main>
       <section id="site-sidebar">
-  <section id="recent-posts">
-    <header>
-      <h1>Recent posts</h1>
-    </header>
-    
-    <article class="mini-post">
-      <section>
-        
-<a href="/blog/drive_by_coding_antipattern/" class="image featured">
-  <img src="/img/2019/10/drive_by.jpg" alt="Drive-by">
-</a>
-
-
-      </section>
+  
+    <section id="recent-posts">
       <header>
-        <h1><a href="/blog/drive_by_coding_antipattern/">The drive-by coding anti-pattern</a></h1>
-        <time class="published" datetime="">October 30, 2019</time>
+        <h1>Recent posts</h1>
       </header>
-    </article>
-    
-    <article class="mini-post">
-      <section>
-        
-<a href="/blog/culture_eats_strategy_for_breakfast/" class="image featured">
-  <img src="/img/2019/10/THIS_IS_SPARTA.jpg" alt="This is Sparta">
-</a>
+      
+      <article class="mini-post">
+        <section>
+          
+  <a href="/blog/rewarding_the_innovators/" class="image featured">
+    <img src="/img/2020/01/reward.jpg" alt="Reward">
+  </a>
 
 
-      </section>
-      <header>
-        <h1><a href="/blog/culture_eats_strategy_for_breakfast/">Culture eats Strategy for breakfast</a></h1>
-        <time class="published" datetime="">October 23, 2019</time>
-      </header>
-    </article>
-    
-    <article class="mini-post">
-      <section>
-        
-<a href="/blog/a_different_kind_of_company_growth/" class="image featured">
-  <img src="/img/2019/10/toy_tools.jpg" alt="Toy Tools">
-</a>
+        </section>
+        <header>
+          <h1><a href="/blog/rewarding_the_innovators/">Rewarding the innovators</a></h1>
+          <time class="published" datetime="">January 20, 2020</time>
+        </header>
+      </article>
+      
+      <article class="mini-post">
+        <section>
+          
+  <a href="/blog/drive_by_coding_antipattern/" class="image featured">
+    <img src="/img/2019/10/drive_by.jpg" alt="Drive-by">
+  </a>
 
 
-      </section>
-      <header>
-        <h1><a href="/blog/a_different_kind_of_company_growth/">A different kind of company growth</a></h1>
-        <time class="published" datetime="">October 8, 2019</time>
-      </header>
-    </article>
-    
-    <article class="mini-post">
-      <section>
-        
-<a href="/blog/how_to_really_build_customer_centric_products/" class="image featured">
-  <img src="/img/2019/10/buttler_sized.jpg" alt="Customer Servant">
-</a>
+        </section>
+        <header>
+          <h1><a href="/blog/drive_by_coding_antipattern/">The drive-by coding anti-pattern</a></h1>
+          <time class="published" datetime="">October 30, 2019</time>
+        </header>
+      </article>
+      
+      <article class="mini-post">
+        <section>
+          
+  <a href="/blog/culture_eats_strategy_for_breakfast/" class="image featured">
+    <img src="/img/2019/10/THIS_IS_SPARTA.jpg" alt="This is Sparta">
+  </a>
 
 
-      </section>
-      <header>
-        <h1><a href="/blog/how_to_really_build_customer_centric_products/">How to (really) build customer centric products</a></h1>
-        <time class="published" datetime="">October 2, 2019</time>
-      </header>
-    </article>
-    
-    <article class="mini-post">
-      <section>
-        
-<a href="/blog/data_trumps_opinion/" class="image featured">
-  <img src="/img/2019/09/data_opinion.jpg" alt="Data versus Opinion">
-</a>
+        </section>
+        <header>
+          <h1><a href="/blog/culture_eats_strategy_for_breakfast/">Culture eats Strategy for breakfast</a></h1>
+          <time class="published" datetime="">October 23, 2019</time>
+        </header>
+      </article>
+      
+      <article class="mini-post">
+        <section>
+          
+  <a href="/blog/a_different_kind_of_company_growth/" class="image featured">
+    <img src="/img/2019/10/toy_tools.jpg" alt="Toy Tools">
+  </a>
 
 
-      </section>
-      <header>
-        <h1><a href="/blog/data_trumps_opinion/">Data Trumps Opinion (every time)</a></h1>
-        <time class="published" datetime="">September 24, 2019</time>
-      </header>
-    </article>
-    
-    
-      <a href="/blog/" class="button">See more</a>
-    
-  </section>
+        </section>
+        <header>
+          <h1><a href="/blog/a_different_kind_of_company_growth/">A different kind of company growth</a></h1>
+          <time class="published" datetime="">October 8, 2019</time>
+        </header>
+      </article>
+      
+      <article class="mini-post">
+        <section>
+          
+  <a href="/blog/how_to_really_build_customer_centric_products/" class="image featured">
+    <img src="/img/2019/10/buttler_sized.jpg" alt="Customer Servant">
+  </a>
+
+
+        </section>
+        <header>
+          <h1><a href="/blog/how_to_really_build_customer_centric_products/">How to (really) build customer centric products</a></h1>
+          <time class="published" datetime="">October 2, 2019</time>
+        </header>
+      </article>
+      
+      
+        <a href="/blog/" class="button">See more</a>
+      
+    </section>
+  
 
   
     
@@ -511,12 +510,12 @@ all about managing the people aspect of software teams rather than the technolog
           
           <li>
             
-              <a href="/categories/methodology/">methodology<span class="count">6</span></a>
+              <a href="/categories/culture/">culture<span class="count">6</span></a>
             
           
           <li>
             
-              <a href="/categories/culture/">culture<span class="count">5</span></a>
+              <a href="/categories/methodology/">methodology<span class="count">6</span></a>
             
           
           <li>
@@ -561,7 +560,17 @@ all about managing the people aspect of software teams rather than the technolog
           
           <li>
             
+              <a href="/categories/innovation/">innovation<span class="count">2</span></a>
+            
+          
+          <li>
+            
               <a href="/categories/recruiting/">recruiting<span class="count">2</span></a>
+            
+          
+          <li>
+            
+              <a href="/categories/strategy/">strategy<span class="count">2</span></a>
             
           
           <li>
@@ -591,11 +600,6 @@ all about managing the people aspect of software teams rather than the technolog
           
           <li>
             
-              <a href="/categories/innovation/">innovation<span class="count">1</span></a>
-            
-          
-          <li>
-            
               <a href="/categories/lean/">lean<span class="count">1</span></a>
             
           
@@ -607,11 +611,6 @@ all about managing the people aspect of software teams rather than the technolog
           <li>
             
               <a href="/categories/requirements/">requirements<span class="count">1</span></a>
-            
-          
-          <li>
-            
-              <a href="/categories/strategy/">strategy<span class="count">1</span></a>
             
           
           <li>
@@ -643,7 +642,7 @@ all about managing the people aspect of software teams rather than the technolog
 
       <footer id="site-footer">
   
-      <ul class="social-icons">
+      <ul class="socnet-icons">
         
 
         <li><a href="//github.com/ghadjiyiannis" target="_blank" rel="noopener" title="GitHub" class="fab fa-github"></a></li>
@@ -683,18 +682,20 @@ all about managing the people aspect of software teams rather than the technolog
 
 
 
+
+
 <li><a href="mailto:ghadjiyiannis@yahoo.com" target="_blank" title="Email" class="far fa-envelope"></a></li>
 
       </ul>
   
   <p class="copyright">
     
-      &copy; 2019
+      &copy; 2020
       
         George Hadjiyiannis
       
-    .
-    Powered by <a href="//gohugo.io" target="_blank" rel="noopener">Hugo</a>
+    . <br>
+    Theme: <a href='https://github.com/pacollins/hugo-future-imperfect-slim' target='_blank' rel='noopener'>Hugo Future Imperfect Slim</a><br>A <a href='https://html5up.net/future-imperfect' target='_blank' rel='noopener'>HTML5 UP port</a> | Powered by <a href='https://gohugo.io/' title='0.62.2' target='_blank' rel='noopener'>Hugo</a>
   </p>
 </footer>
 <a id="back-to-top" href="#" class="fas fa-arrow-up fa-2x"></a>
@@ -713,6 +714,8 @@ all about managing the people aspect of software teams rather than the technolog
   <script src=/js/main.js></script>
   <script src=/js/add-on.js></script>
   
+
+
 
 
 
