@@ -12,7 +12,7 @@
 <meta itemprop="description" content="The objectives and design of the test stages in a regular, distributed team environment.">
 <meta itemprop="datePublished" content="2019-07-16T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2019-07-16T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="1897">
+<meta itemprop="wordCount" content="1993">
 
 
 
@@ -224,7 +224,7 @@
     </time>
     <span class="author">George Hadjiyiannis</span>
     
-      <p>9 minutes read</p>
+      <p>10 minutes read</p>
     
   </div>
 </header>
@@ -412,7 +412,50 @@ specific attributes:</p>
 </ol>
 <p>This proved very important when it came to designing the Build-Deploy-Test loop (which will be
 described in <a href="/blog/cicd_pipeline_design_build_deploy_test/" title="CI/CD Pipeline Design: Build-Deploy-Test">Part 2</a> of the series). The table below shows a summary of the environments and the three attributes.</p>
-<!-- raw HTML omitted -->
+<table>
+	<tr>
+		<th width="10%">Stage</th>
+		<th width="20%">Version</th>
+		<th width="20%">Trigger</th>
+		<th width="50%">Tests / Checks</th>
+	</tr>
+	<tr>
+		<td>Local</td>
+		<td>Local changes</td>
+		<td>Manual</td>
+		<td>style checks, static code analysis, unit tests, smoke tests, specific tests by developer</td>
+	</tr>
+	<tr>
+		<td>Commit</td>
+		<td>Version in Commit</td>
+		<td>Commit</td>
+		<td>style checks, static code analysis, unit tests, smoke tests</td>
+	</tr>
+	<tr>
+		<td>Nightly</td>
+		<td>Snapshot at trigger time</td>
+		<td>External timer</td>
+		<td>style checks, static code analysis, unit tests, expensive code analysis, full regression</td>
+	</tr>
+	<tr>
+		<td>RC</td>
+		<td>Release candidate</td>
+		<td>Manual by the PO</td>
+		<td>style checks, static code analysis, unit tests, expensive code analysis, full regression</td>
+	</tr>
+	<tr>
+		<td>PLS</td>
+		<td>Release candidate</td>
+		<td>Manual by the PO</td>
+		<td>Performance, Load, and Stress tests</td>
+	</tr>
+	<tr>
+		<td>SEC</td>
+		<td>Release candidate</td>
+		<td>Manual by the PO</td>
+		<td>Security tests</td>
+	</tr>
+</table>
 
   </div>
   <footer>

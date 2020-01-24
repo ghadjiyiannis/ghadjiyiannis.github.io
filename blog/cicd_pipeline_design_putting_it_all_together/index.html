@@ -12,7 +12,7 @@
 <meta itemprop="description" content="How the full set of pipelines is composed from the basic building blocks, and some further optimizations.">
 <meta itemprop="datePublished" content="2019-08-07T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2019-08-07T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="4103">
+<meta itemprop="wordCount" content="4199">
 
 
 
@@ -290,7 +290,50 @@ key variables:</p>
 <li>Which tests and checks it runs</li>
 </ol>
 <p>The table below shows the summary for all stages described in <a href="/blog/cicd_pipeline_design_environments/" title="CI/CD Pipeline Design: The Stages">Part 1</a>:</p>
-<!-- raw HTML omitted -->
+<table>
+	<tr>
+		<th width="10%">Stage</th>
+		<th width="20%">Version</th>
+		<th width="20%">Trigger</th>
+		<th width="50%">Tests / Checks</th>
+	</tr>
+	<tr>
+		<td>Local</td>
+		<td>Local changes</td>
+		<td>Manual</td>
+		<td>style checks, static code analysis, unit tests, smoke tests, specific tests by developer</td>
+	</tr>
+	<tr>
+		<td>Commit</td>
+		<td>Version in Commit</td>
+		<td>Commit</td>
+		<td>style checks, static code analysis, unit tests, smoke tests</td>
+	</tr>
+	<tr>
+		<td>Nightly</td>
+		<td>Snapshot at trigger time</td>
+		<td>External timer</td>
+		<td>style checks, static code analysis, unit tests, expensive code analysis, full regression</td>
+	</tr>
+	<tr>
+		<td>RC</td>
+		<td>Release candidate</td>
+		<td>Manual by the PO</td>
+		<td>style checks, static code analysis, unit tests, expensive code analysis, full regression</td>
+	</tr>
+	<tr>
+		<td>PLS</td>
+		<td>Release candidate</td>
+		<td>Manual by the PO</td>
+		<td>Performance, Load, and Stress tests</td>
+	</tr>
+	<tr>
+		<td>SEC</td>
+		<td>Release candidate</td>
+		<td>Manual by the PO</td>
+		<td>Security tests</td>
+	</tr>
+</table>
 <p>The key functionality is implemented by three main scripts, as described in <a href="/blog/cicd_pipeline_design_build_deploy_test/" title="CI/CD Pipeline Design: Build-Deploy-Test">Part 2</a>:</p>
 <ul>
 <li>The Build script takes as parameters the tag, representing a version of the software in the source

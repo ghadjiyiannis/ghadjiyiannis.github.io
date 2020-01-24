@@ -12,7 +12,7 @@
 <meta itemprop="description" content="The Build-Deploy-Test process, and the core structure of the pipelines.">
 <meta itemprop="datePublished" content="2019-07-24T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2019-07-24T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="3330">
+<meta itemprop="wordCount" content="3331">
 
 
 
@@ -426,7 +426,7 @@ process of creating a fully initialized instance of the software, from the proce
 code into artifacts. Like the Build script, it can itself call helper scripts for each module. Our 
 monolith, for example, is first installed through RPMs, then configured and initialized through a series
 of hand-crafted scripts. The associated micro-services are installed (currently also using RPMs) and
-initialized through the standard <!-- raw HTML omitted -->systemd<!-- raw HTML omitted --> mechanism. Adding a module to the system involves
+initialized through the standard <code>systemd</code> mechanism. Adding a module to the system involves
 adding the corresponding deploy and initialization statements to the Deploy script. These may be encapsulated
 in a helper script, which is then invoked from the Deploy script. Note that the Deploy script also needs to
 deploy appropriate configuration files for the test environments.</p>
