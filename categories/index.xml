@@ -6,10 +6,37 @@
     <description>Recent content in Categories on George Hadjiyiannis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 20 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 07 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://ghadjiyiannis.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Architecture</title>
+      <link>https://ghadjiyiannis.github.io/categories/architecture/</link>
+      <pubDate>Thu, 07 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ghadjiyiannis.github.io/categories/architecture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cost</title>
+      <link>https://ghadjiyiannis.github.io/categories/cost/</link>
+      <pubDate>Thu, 07 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ghadjiyiannis.github.io/categories/cost/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Technology</title>
+      <link>https://ghadjiyiannis.github.io/categories/technology/</link>
+      <pubDate>Thu, 07 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ghadjiyiannis.github.io/categories/technology/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Culture</title>
@@ -84,15 +111,6 @@
     </item>
     
     <item>
-      <title>Cost</title>
-      <link>https://ghadjiyiannis.github.io/categories/cost/</link>
-      <pubDate>Wed, 02 Oct 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://ghadjiyiannis.github.io/categories/cost/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Product Management</title>
       <link>https://ghadjiyiannis.github.io/categories/product-management/</link>
       <pubDate>Wed, 02 Oct 2019 00:00:00 +0000</pubDate>
@@ -125,24 +143,6 @@
       <pubDate>Wed, 18 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>https://ghadjiyiannis.github.io/categories/methodology/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Architecture</title>
-      <link>https://ghadjiyiannis.github.io/categories/architecture/</link>
-      <pubDate>Wed, 11 Sep 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://ghadjiyiannis.github.io/categories/architecture/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Technology</title>
-      <link>https://ghadjiyiannis.github.io/categories/technology/</link>
-      <pubDate>Wed, 11 Sep 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://ghadjiyiannis.github.io/categories/technology/</guid>
       <description></description>
     </item>
     

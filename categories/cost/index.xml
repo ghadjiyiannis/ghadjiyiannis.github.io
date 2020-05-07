@@ -6,10 +6,19 @@
     <description>Recent content in Cost on George Hadjiyiannis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 02 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 07 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://ghadjiyiannis.github.io/categories/cost/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Untyped vs. strongly typed languages</title>
+      <link>https://ghadjiyiannis.github.io/blog/typed_vs_untyped_languages/</link>
+      <pubDate>Thu, 07 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ghadjiyiannis.github.io/blog/typed_vs_untyped_languages/</guid>
+      <description>In a previous article I explained why I generally do not think it is worth debating the relative merits of one computer language over another, while at the same time pointing out one major exception: whether the language in question is untyped vs. strongly typed. Unlike the other properties of a language, I believe its ability to guarantee the type of each variable in the code base is extremely important in the lifetime cost of software written in that language.</description>
+    </item>
     
     <item>
       <title>How to (really) build customer centric products</title>

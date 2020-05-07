@@ -1,0 +1,791 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+<title>Untyped vs. strongly typed languages - George Hadjiyiannis</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+  <meta name="generator" content="Hugo 0.62.2" />
+  <meta itemprop="name" content="Untyped vs. strongly typed languages">
+<meta itemprop="description" content="Imagine trying to get from A to B on a road network where none of the road signs have anything written on them.">
+<meta itemprop="datePublished" content="2020-05-07T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2020-05-07T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="2546">
+
+
+
+<meta itemprop="keywords" content="" />
+  <meta property="og:title" content="Untyped vs. strongly typed languages" />
+<meta property="og:description" content="Imagine trying to get from A to B on a road network where none of the road signs have anything written on them." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ghadjiyiannis.github.io/blog/typed_vs_untyped_languages/" />
+<meta property="article:published_time" content="2020-05-07T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-05-07T00:00:00+00:00" />
+
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Untyped vs. strongly typed languages"/>
+<meta name="twitter:description" content="Imagine trying to get from A to B on a road network where none of the road signs have anything written on them."/>
+
+  
+
+  <link rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css">
+  
+    
+      <link rel="stylesheet" href="/css/normalize.css">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800,900|Source+Sans+Pro:400,700">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" integrity="sha384-i1LQnF23gykqWXg6jxC2ZbCbUMxyw5gLZY6UiUS98LYV5unm8GWmfkIS6jqJfb4E" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
+      
+      
+      <link rel="stylesheet" href="/css/main.min.d602d62b6496c56add39765898b5706c3f43332845c14fdd0dbce172ced15a79.css" integrity="sha256-1gLWK2SWxWrdOXZYmLVwbD9DMyhFwU/dDbzhcs7RWnk=">
+      <link rel="stylesheet" href="/css/add-on.css">
+    
+  
+  
+  
+  
+    
+  
+</head>
+
+  <body>
+    
+<header id="site-header">
+  <nav id="site-nav">
+    <h1 class="nav-title">
+      <a href="/">
+        
+          
+            Blog
+          
+        
+      </a>
+    </h1>
+    <menu id="site-nav-menu" class="flyout-menu">
+      
+        
+          
+          <a href="/" class="link"><i class="fas fa-home">&nbsp;</i>Home</a>
+        
+      
+        
+          
+          <a href="/about/" class="link"><i class="far fa-id-card">&nbsp;</i>About</a>
+        
+      
+        
+          
+          <a href="/blog/" class="link"><i class="far fa-newspaper">&nbsp;</i>Blog</a>
+        
+      
+        
+          
+          <a href="/categories/" class="link"><i class="fas fa-sitemap">&nbsp;</i>Categories</a>
+        
+      
+        
+          
+          <a href="/contact/" class="link"><i class="far fa-envelope">&nbsp;</i>Contact</a>
+        
+      
+      <a href="#share-menu" class="share-toggle"><i class="fas fa-share-alt">&nbsp;</i>Share</a>
+      
+
+    </menu>
+    
+
+    <a href="#share-menu" class="share-toggle"><i class="fas fa-share-alt fa-2x">&nbsp;</i></a>
+    
+    <a href="#site-nav" class="nav-toggle"><i class="fas fa-bars fa-2x"></i></a>
+  </nav>
+  
+  
+    <menu id="share-menu" class="flyout-menu">
+      <h1>Share Post</h1>
+      
+
+
+
+
+  
+    
+    <a href="//twitter.com/share?text=Untyped%20vs.%20strongly%20typed%20languages&amp;url=https%3a%2f%2fghadjiyiannis.github.io%2fblog%2ftyped_vs_untyped_languages%2f" target="_blank" rel="noopener" class="share-btn twitter">
+        <i class="fab fa-twitter"></i><p>&nbsp;Twitter</p>
+      </a>
+  
+
+  
+      <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fghadjiyiannis.github.io%2fblog%2ftyped_vs_untyped_languages%2f" target="_blank" rel="noopener" class="share-btn facebook">
+        <i class="fab fa-facebook"></i><p>&nbsp;Facebook</p>
+        </a>
+  
+
+  
+    <a href="//www.reddit.com/submit?url=https%3a%2f%2fghadjiyiannis.github.io%2fblog%2ftyped_vs_untyped_languages%2f&amp;title=Untyped%20vs.%20strongly%20typed%20languages" target="_blank" rel="noopener" class="share-btn reddit">
+          <i class="fab fa-reddit-alien"></i><p>&nbsp;Reddit</p>
+        </a>
+  
+
+  
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fghadjiyiannis.github.io%2fblog%2ftyped_vs_untyped_languages%2f&amp;title=Untyped%20vs.%20strongly%20typed%20languages" target="_blank" rel="noopener" class="share-btn linkedin">
+            <i class="fab fa-linkedin"></i><p>&nbsp;LinkedIn</p>
+          </a>
+  
+
+  
+        <a href="mailto:?subject=Check out this post by George%20Hadjiyiannis&amp;body=https%3a%2f%2fghadjiyiannis.github.io%2fblog%2ftyped_vs_untyped_languages%2f" target="_blank" class="share-btn email" data-proofer-ignore>
+          <i class="fas fa-envelope"></i><p>&nbsp;Email</p>
+        </a>
+  
+
+
+    </menu>
+  
+</header>
+
+    <div id="wrapper">
+      <section id="site-intro">
+  <a href="/"><img src="/img/main/logo.jpg" class="circle" width="" alt="George Hadjiyiannis" /></a>
+  <header>
+    <h1>George Hadjiyiannis</h1>
+  </header>
+  <main>
+    <p>Software Executive, Entrepreneur, Software Architect</p>
+  </main>
+  
+    <footer>
+      <ul class="socnet-icons">
+        
+
+        <li><a href="//github.com/ghadjiyiannis" target="_blank" rel="noopener" title="GitHub" class="fab fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//linkedin.com/in/ghadjiyiannis" target="_blank" rel="noopener" title="LinkedIn" class="fab fa-linkedin"></a></li>
+
+
+<li><a href="//xing.com/profile/George_Hadjiyiannis" target="_blank" rel="noopener" title="Xing" class="fab fa-xing"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="mailto:ghadjiyiannis@yahoo.com" target="_blank" title="Email" class="far fa-envelope"></a></li>
+
+      </ul>
+    </footer>
+  
+</section>
+
+      <main id="site-main">
+        <article class="post">
+  <header>
+  <div class="title">
+    
+        <h2><a href="/blog/typed_vs_untyped_languages/">Untyped vs. strongly typed languages</a></h2>
+    
+    
+        <p>Imagine trying to get from A to B on a road network where none of the road signs have anything written on them.</p>
+    
+</div>
+  <div class="meta">
+    <time class="published" datetime="2020-05-07 00:00:00 &#43;0000 UTC">
+      May 7, 2020
+    </time>
+    <span class="author">George Hadjiyiannis</span>
+    
+      <p>12 minutes read</p>
+    
+  </div>
+</header>
+
+  <section id="socnet-share">
+    
+
+
+
+
+  
+    
+    <a href="//twitter.com/share?text=Untyped%20vs.%20strongly%20typed%20languages&amp;url=https%3a%2f%2fghadjiyiannis.github.io%2fblog%2ftyped_vs_untyped_languages%2f" target="_blank" rel="noopener" class="share-btn twitter">
+        <i class="fab fa-twitter"></i><p>&nbsp;Twitter</p>
+      </a>
+  
+
+  
+      <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fghadjiyiannis.github.io%2fblog%2ftyped_vs_untyped_languages%2f" target="_blank" rel="noopener" class="share-btn facebook">
+        <i class="fab fa-facebook"></i><p>&nbsp;Facebook</p>
+        </a>
+  
+
+  
+    <a href="//www.reddit.com/submit?url=https%3a%2f%2fghadjiyiannis.github.io%2fblog%2ftyped_vs_untyped_languages%2f&amp;title=Untyped%20vs.%20strongly%20typed%20languages" target="_blank" rel="noopener" class="share-btn reddit">
+          <i class="fab fa-reddit-alien"></i><p>&nbsp;Reddit</p>
+        </a>
+  
+
+  
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fghadjiyiannis.github.io%2fblog%2ftyped_vs_untyped_languages%2f&amp;title=Untyped%20vs.%20strongly%20typed%20languages" target="_blank" rel="noopener" class="share-btn linkedin">
+            <i class="fab fa-linkedin"></i><p>&nbsp;LinkedIn</p>
+          </a>
+  
+
+  
+        <a href="mailto:?subject=Check out this post by George%20Hadjiyiannis&amp;body=https%3a%2f%2fghadjiyiannis.github.io%2fblog%2ftyped_vs_untyped_languages%2f" target="_blank" class="share-btn email" data-proofer-ignore>
+          <i class="fas fa-envelope"></i><p>&nbsp;Email</p>
+        </a>
+  
+
+
+  </section>
+  
+  <a href="/blog/typed_vs_untyped_languages/" class="image featured">
+    <img src="/img/2020/05/unlabelled.jpg" alt="Empty street sign">
+  </a>
+
+
+  <div class="content">
+    <p>In a <a href="/blog/choosing_technologies/" title="Choosing Technologies">previous article</a> I explained why I generally do not think it is worth debating the relative merits of one
+computer language over another, while at the same time pointing out one major exception: whether the language
+in question is untyped vs. strongly typed. Unlike the other properties of a language, I believe its ability
+to guarantee the type of each variable in the code base is extremely important in the lifetime cost of software
+written in that language. Like many of the other posts, this one is also rooted in a discussion that often
+repeats itself in various teams all over the industry on a daily basis. I am certainly not a proponent of
+untyped or weakly typed languages, and I do not pretend to be treating the topic in an unbiased fashion.</p>
+<h3 id="the-myth-of-strong-typing-as-old-fashioned">The myth of strong typing as old-fashioned</h3>
+<p>I think a lot of the claimed benefits in favor of untyped languages are based either on a misunderstanding of
+what makes creating complex pieces of software difficult, or simply extrapolating from trivial examples that
+are not analogous to engineering software for a living. But before I analyze those, I would first like to dispel
+one other myth that often creeps into the discussion: that untyped languages are a new development, and that they
+evolved as a response to perceived shortcomings of &ldquo;older&rdquo; strongly typed languages. This line of thinking
+is often seen in environments where javascript and python are heavily used, and Java and C or C++ are viewed
+as the old languages that are hanging on to the old-fashioned notion of types. Unfortunately, that claim is simply
+incorrect. The most common counter-example that everyone would know is, of course, BASIC, which predates C by a
+few years and Java by a few decades. And while I find any lack of knowledge about COBOL quite forgivable, that
+particular weakly typed language was created even earlier. Not only are weakly typed languages not an evolution
+over strongly typed languages, modern developments are actually suggesting quite the opposite. When javascript
+started being used for back-end systems (which have significantly more complexity than web page scripting), a
+typing system (TypeScript) had to be created and retrofitted to the language in order to enable it to master
+the higher levels of complexity. Similarly, python started developing some characteristics of strongly typed
+languages towards its later versions. And last, but certainly not least, even BASIC itself evolved to provide a strong
+typing system that operates alongside the untyped facilities of the language with the introduction of Visual
+Basic 7. The evolutionary trend has been distinctly from weaker typing to stronger typing, not the other way
+around.</p>
+<h3 id="the-myth-of-less-code">The myth of less code</h3>
+<p>Another typical argument is that having to include type information in everything from variable declarations to
+method signatures, adds a lot of code and therefore a lot of overhead. The implication is that the added code
+requires proportionately greater effort, but this is not the case in practice. The added code is mechanical
+and very simple to write and read. In terms of effort, the only truth to the implication is that it takes longer
+to type. Needless to say that typing the code is a minuscule percentage of the effort expended on creating a 
+piece of software. The effort to create a piece of software is about 1/4 design, 1/4 coming up
+with the actual implementation (choice of algorithm, control flow, edge cases, error handling, etc.), and
+about 1/2 debugging and testing. Design is certainly not made more complicated by the need to determine the
+type of various entities; if anything it is probably made easier because it encourages a certain level of
+encapsulation. Similarly, debugging and testing is not made more complicated; once again it is probably rendered
+easier as the type information can be useful during debugging. That leaves coming up with the actual implementation.
+This is certainly not made more complicated by the need to come up with the types of the various entities; a
+developer would still need to do the work of determining what kind of data structure he or she needs to pass
+into which method, but without the help of explicit types he now needs to do the same in his head, or possibly
+even resort to paper and pencil. The complex work is still there, but the developer no longer has the option
+of receiving support from his tools. As for reading code, having explicit types certainly makes the code more
+readable. And the implication that more code to read means more effort is misleading, since the extra code is
+in a very predictable place and can therefore be glossed over if not relevant. At the end of the day, the implicit idea that
+the additional code means additional effort turns out to be false.</p>
+<p>A related but somewhat more robust claim is that polymorphism has to be explicit in strongly typed languages,
+and this imposes an additional design cost: one could simply &ldquo;fudge it&rdquo; in an untyped language whereas one
+must fully think out the design of the polymorphism relationships between entities in a strongly typed language.
+While the second part of that argument is certainly true, I think the idea that one can just &ldquo;fudge it&rdquo;  when
+it comes to polymorphism is questionable. I can certainly imagine doing so in extremely simple systems, where
+a particular polymorphic type has no more than one simple level of inheritance and two - maximum three -
+alternative implementations, but anything more complicated than that and &ldquo;fudging it&rdquo; turns into an impossible
+trial of trying to trace each requirement either by pure inference in one's brain, or by resorting to paper
+and pencil again. And while one can avoid stacking polymorphism layers at the cost of avoiding half the typical
+design patterns, it is close to impossible to construct any reasonable library or framework without some heavy
+use of polymorphism. Trying to build such structures without the help of explicit polymorphism places an
+inhuman cognitive load on a developer, such that he will actually be slower and more error prone, rather
+than faster, in creating the polymorphic entities. Worse still, the &ldquo;freedom&rdquo; of not having to explicitly
+design the polymorphic hierarchy encourages developers to try to incrementally evolve such a hierarchy as more
+of the types become evident to him or her. The result is the tendency to preserve poor design choices for
+much longer than appropriate, hoping to minimize the amount of code changed, thus creating a very significant
+technical debt of a kind that it is particularly hard to debug. The need to explicitly design and declare
+the polymorphism structure means that as new types are discovered they have to be explicitly included in the
+structure and thus the design integrity is preserved.</p>
+<h3 id="the-myth-of-avoiding-the-cost-of-the-compiler">The myth of avoiding the cost of the compiler</h3>
+<p>The last argument I hear a lot is that a developer is more efficient in untyped languages since he or she does
+not have to suffer through compilation. The argument is that compilation wastes time and interrupts the
+momentum of the developer, therefore making development slow and inefficient. If a developer could make changes
+directly to the source code in an interpreter and see the results right away, development would be much
+faster and more efficient, or so goes the thinking. Once again, this is not borne out in reality. To begin with,
+compilation itself is fairly fast in reality since only the source files that have changed need to be compiled.
+At any rate, nowadays there are interpreters available even for languages that are traditionally compiled, such
+as C/C++ and Java, so if one absolutely has to avoid the compiler, once can do so even with a strongly typed language.</p>
+<p>That being said, the overall build might not necessarily be that fast since it additionally runs style checks and usually some
+kind of static analyzer to check for problematic code, builds new images for containerization (if in use), runs
+at least all smoke tests plus all unit tests for the units that have changed, and so on. The fact of the matter,
+however, is that the developer should take all of those actions anyway, irrespective of whether he is using a
+strongly typed or an untyped language. Any loss of momentum would apply equally to untyped as well as typed languages. 
+One has to question what kind of best practices are possible in an
+environment where a developer is expected to modify the source locally (or even worse, directly modify the
+definition of a function in an interpreter), run the application without its container on some local instance
+of questionable configuration, run none of the static analysis or unit tests, but only a couple of probes of
+the modified section of the code, and then go on developing as if the job was done.</p>
+<p>As for the cost of resolving compiler errors: they are there for a reason! A type-related compiler error results
+when the type passed into a function is inconsistent with the expected type of the function. In the absence of
+type checking, this will indeed avoid the compile-time error, but will still result in a run-time error nonetheless. 
+Any engineer that has used both untyped and strongly typed languages would prefer to find himself trying to figure
+out a compiler error than a runtime error. Compiler errors are typically very easy to resolve: if nothing else,
+the compiler tells you exactly whats is wrong, and even the file and line number to look at! With modern IDEs, one
+does not even have to run the compiler to see these errors; modern IDEs will detect and highlight them right in the code,
+and even offer a one-click resolution most of the time. One has no such luxury with run-time errors. Long
+story short: anything that can convert run-time errors to compile-time errors will save an engineer massive
+amounts of time and effort, and strong type checking certainly does that for a large class of errors.</p>
+<h3 id="the-real-cost-of-untyped-languages">The real cost of untyped languages</h3>
+<p>At any rate, I find that the above claims in favor of untyped languages (and perhaps my rebuttal of them as well)
+is in a lot of respects besides the point. Irrespective of whether true or not, the claims focus on the idea of
+making code easy to write for the first time. In a <a href="/blog/understanding_the_cost_of_software/" title="Understanding the cost of software">previous article</a> I explained that putting the code
+together for the first time actually reflects a fairly small portion of the lifetime cost of software, whereas
+maintaining the software represents the lion's share. Unfortunately, maintenance effort (and, by extension, costs)
+are dominated by the effort required to comprehend the (by now) legacy code. This effort is <em>substantially increased</em>
+by untyped languages! Imagine reading a piece of the code to understand it for the first time. The type information
+from a strongly typed language represents absolute guarantees that you can rely on while reading the code, reducing
+the cognitive load on you as the maintainer, by reducing the need to make assumptions as to the nature of the various
+entities in the code and the subsequent need to verify them. In an untyped language, a method call on an entity could
+refer to any entity type that defines such a method if the code is correct, and any entity at all if the code could
+contain an undetected type bug. In a strongly typed language, the entity is absolutely guaranteed to be one of the
+polymorphisms of the given type, and as a developer you probably don't even care which exact type at this moment in time.</p>
+<p>To illustrate by way of example: a few years ago I was reading and trying to understand a piece of code written in Perl.
+One of the main types of polymorphism in this code was a set of functions (called triggers in the context of that system)
+that would run when certain data was accessed. Some functionality was shared between all such triggers and was
+appropriately encapsulated in a &ldquo;base class&rdquo;<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. Since I was trying to understand a particular trigger, I started by
+reading the code for that trigger, but soon found references to data structures that were not part of the trigger itself.
+Naturally, I then looked to the base class only to find out that these were not defined in the base class either. In fact,
+the base class was assembled from data passed in a hash in the constructor (this is the standard way of creating an object
+in Perl). Not only was there no definition anywhere in the code of what data was required in the constructor, since there
+were no checks, each constructor invocation would pass in different data and therefore each instance of a trigger could
+actually have different member variables! The only way to determine what variables I could reasonably expect would be to
+look at each constructor invocation everywhere in the code! In the end, I asked someone that had some familiarity with
+this code and he explained to me what the design said was expected, but we still had no way of verifying this without
+looking at every invocation. Needless to say that simply cannot happen in a strongly typed language. Furthermore, in a
+strongly typed language, this kind of critical information is captured in the most reliable form of documentation
+possible, and its integrity is guaranteed by the compiler. As a result, even in the case where one cannot locate an
+expert that has knowledge of the code (which was certainly the case for other parts of the code in the example above),
+one still knows and can rely on this basic requirements of design. The type information in a strongly typed language
+accelerates code comprehension of legacy code by leaps and bounds, thus drastically reducing the cost of maintenance
+compared to cases that use untyped languages. Given how much larger the contribution of maintenance costs is to the
+total lifetime cost, even if untyped languages saved effort during the original creation phase of the software, they
+would still result in a massive increase in cost in the end!</p>
+<h3 id="what-are-untyped-languages-good-at">What are untyped languages good at?</h3>
+<p>While I would certainly not recommend an untyped language for a software system that I expect to have a long life in production,
+an interesting pattern emerges if one looks at the claims above in conjunction. In particular, untyped languages allow
+one to:</p>
+<ol>
+<li>defer or avoid a significant portion of the design cost, especially design cost related to polymorphism structures.</li>
+<li>sacrifice best practice in order to increase velocity</li>
+<li>trade off the cost of putting a body of code together for the first time against the cost of maintaining the code later.</li>
+</ol>
+<p>Those are all characteristics that favor rapid prototyping! Untyped languages are actually fairly well-suited to creating
+Proof of Concept implementations, throw-away prototypes, and internal tools for one-time use. If one can avoid the temptation
+to put one's prototype in production (a topic that deserves an article of its own), I would, in fact, prefer the use of an
+untyped language over a typed one!</p>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>In reality, Perl does not have true object-oriented programming and inheritance, and as a result a base class is
+not required to contain the methods expected at the subclass level. <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+
+  </div>
+  <footer>
+    <ul class="stats">
+  
+    
+    
+      <li class="categories">
+        <ul>
+          
+            
+            <li><a class="article-category-link" href="https://ghadjiyiannis.github.io/categories/technology">Technology</a></li>
+          
+            
+            <li><a class="article-category-link" href="https://ghadjiyiannis.github.io/categories/architecture">Architecture</a></li>
+          
+            
+            <li><a class="article-category-link" href="https://ghadjiyiannis.github.io/categories/cost">Cost</a></li>
+          
+        </ul>
+      </li>
+    
+  
+  
+    <li class="tags">
+      <ul>
+        <li>None</li>
+      </ul>
+    </li>
+  
+</ul>
+
+  </footer>
+</article>
+
+
+<div class="pagination">
+  
+    <a href="/blog/rewarding_the_innovators/" class="button"><div class="previous"><div>Rewarding the innovators</div></div></a>
+  
+  
+</div>
+
+
+      </main>
+      <section id="site-sidebar">
+  
+    <section id="recent-posts">
+      <header>
+        <h1>Recent posts</h1>
+      </header>
+      
+      <article class="mini-post">
+        <section>
+          
+  <a href="/blog/typed_vs_untyped_languages/" class="image featured">
+    <img src="/img/2020/05/unlabelled.jpg" alt="Empty street sign">
+  </a>
+
+
+        </section>
+        <header>
+          <h1><a href="/blog/typed_vs_untyped_languages/">Untyped vs. strongly typed languages</a></h1>
+          <time class="published" datetime="">May 7, 2020</time>
+        </header>
+      </article>
+      
+      <article class="mini-post">
+        <section>
+          
+  <a href="/blog/rewarding_the_innovators/" class="image featured">
+    <img src="/img/2020/01/reward.jpg" alt="Reward">
+  </a>
+
+
+        </section>
+        <header>
+          <h1><a href="/blog/rewarding_the_innovators/">Rewarding the innovators</a></h1>
+          <time class="published" datetime="">January 20, 2020</time>
+        </header>
+      </article>
+      
+      <article class="mini-post">
+        <section>
+          
+  <a href="/blog/drive_by_coding_antipattern/" class="image featured">
+    <img src="/img/2019/10/drive_by.jpg" alt="Drive-by">
+  </a>
+
+
+        </section>
+        <header>
+          <h1><a href="/blog/drive_by_coding_antipattern/">The drive-by coding anti-pattern</a></h1>
+          <time class="published" datetime="">October 30, 2019</time>
+        </header>
+      </article>
+      
+      <article class="mini-post">
+        <section>
+          
+  <a href="/blog/culture_eats_strategy_for_breakfast/" class="image featured">
+    <img src="/img/2019/10/THIS_IS_SPARTA.jpg" alt="This is Sparta">
+  </a>
+
+
+        </section>
+        <header>
+          <h1><a href="/blog/culture_eats_strategy_for_breakfast/">Culture eats Strategy for breakfast</a></h1>
+          <time class="published" datetime="">October 23, 2019</time>
+        </header>
+      </article>
+      
+      <article class="mini-post">
+        <section>
+          
+  <a href="/blog/a_different_kind_of_company_growth/" class="image featured">
+    <img src="/img/2019/10/toy_tools.jpg" alt="Toy Tools">
+  </a>
+
+
+        </section>
+        <header>
+          <h1><a href="/blog/a_different_kind_of_company_growth/">A different kind of company growth</a></h1>
+          <time class="published" datetime="">October 8, 2019</time>
+        </header>
+      </article>
+      
+      
+        <a href="/blog/" class="button">See more</a>
+      
+    </section>
+  
+
+  
+    
+      <section id="categories">
+        <header>
+          <h1><a href="/categories">Categories</a></h1>
+        </header>
+        <ul>
+          
+            
+          
+          
+          <li>
+            
+              <a href="/categories/best-practice/">best-practice<span class="count">7</span></a>
+            
+          
+          <li>
+            
+              <a href="/categories/culture/">culture<span class="count">6</span></a>
+            
+          
+          <li>
+            
+              <a href="/categories/methodology/">methodology<span class="count">6</span></a>
+            
+          
+          <li>
+            
+              <a href="/categories/business/">business<span class="count">4</span></a>
+            
+          
+          <li>
+            
+              <a href="/categories/general/">general<span class="count">4</span></a>
+            
+          
+          <li>
+            
+              <a href="/categories/software-engineering/">software-engineering<span class="count">4</span></a>
+            
+          
+          <li>
+            
+              <a href="/categories/testing/">testing<span class="count">4</span></a>
+            
+          
+          <li>
+            
+              <a href="/categories/architecture/">architecture<span class="count">3</span></a>
+            
+          
+          <li>
+            
+              <a href="/categories/ci/cd/">ci/cd<span class="count">3</span></a>
+            
+          
+          <li>
+            
+              <a href="/categories/cost/">cost<span class="count">3</span></a>
+            
+          
+          <li>
+            
+              <a href="/categories/devops/">devops<span class="count">3</span></a>
+            
+          
+          <li>
+            
+              <a href="/categories/innovation/">innovation<span class="count">2</span></a>
+            
+          
+          <li>
+            
+              <a href="/categories/recruiting/">recruiting<span class="count">2</span></a>
+            
+          
+          <li>
+            
+              <a href="/categories/strategy/">strategy<span class="count">2</span></a>
+            
+          
+          <li>
+            
+              <a href="/categories/technology/">technology<span class="count">2</span></a>
+            
+          
+          <li>
+            
+              <a href="/categories/agile/">agile<span class="count">1</span></a>
+            
+          
+          <li>
+            
+              <a href="/categories/anti-patterns/">anti-patterns<span class="count">1</span></a>
+            
+          
+          <li>
+            
+              <a href="/categories/collaboration/">collaboration<span class="count">1</span></a>
+            
+          
+          <li>
+            
+              <a href="/categories/data/">data<span class="count">1</span></a>
+            
+          
+          <li>
+            
+              <a href="/categories/engineers/">engineers<span class="count">1</span></a>
+            
+          
+          <li>
+            
+              <a href="/categories/lean/">lean<span class="count">1</span></a>
+            
+          
+          <li>
+            
+              <a href="/categories/product-management/">product-management<span class="count">1</span></a>
+            
+          
+          <li>
+            
+              <a href="/categories/requirements/">requirements<span class="count">1</span></a>
+            
+          
+          <li>
+            
+              <a href="/categories/teamwork/">teamwork<span class="count">1</span></a>
+            
+          
+          </li>
+        </ul>
+      </section>
+    
+  
+
+  <section id="mini-bio">
+    <header>
+      <h1>About</h1>
+    </header>
+    <p>A brief bio</p>
+    <footer>
+      <a href="/about" class="button">Learn More</a>
+    </footer>
+  </section>
+</section>
+
+      <footer id="site-footer">
+  
+      <ul class="socnet-icons">
+        
+
+        <li><a href="//github.com/ghadjiyiannis" target="_blank" rel="noopener" title="GitHub" class="fab fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//linkedin.com/in/ghadjiyiannis" target="_blank" rel="noopener" title="LinkedIn" class="fab fa-linkedin"></a></li>
+
+
+<li><a href="//xing.com/profile/George_Hadjiyiannis" target="_blank" rel="noopener" title="Xing" class="fab fa-xing"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="mailto:ghadjiyiannis@yahoo.com" target="_blank" title="Email" class="far fa-envelope"></a></li>
+
+      </ul>
+  
+  <p class="copyright">
+    
+      &copy; 2020
+      
+        George Hadjiyiannis
+      
+    . <br>
+    Theme: <a href='https://github.com/pacollins/hugo-future-imperfect-slim' target='_blank' rel='noopener'>Hugo Future Imperfect Slim</a><br>A <a href='https://html5up.net/future-imperfect' target='_blank' rel='noopener'>HTML5 UP port</a> | Powered by <a href='https://gohugo.io/' title='0.62.2' target='_blank' rel='noopener'>Hugo</a>
+  </p>
+</footer>
+<a id="back-to-top" href="#" class="fas fa-arrow-up fa-2x"></a>
+
+      
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/html.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/css.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/js.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/toml.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+
+
+  
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/skel/3.0.1/skel.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
+  <script src=/js/util.js></script>
+  <script src=/js/main.js></script>
+  <script src=/js/add-on.js></script>
+  
+
+
+
+
+
+    </div>
+  </body>
+</html>

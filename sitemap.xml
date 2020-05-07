@@ -3,22 +3,42 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ghadjiyiannis.github.io/categories/architecture/</loc>
+    <lastmod>2020-05-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ghadjiyiannis.github.io/blog/</loc>
-    <lastmod>2020-01-20T00:00:00+00:00</lastmod>
+    <lastmod>2020-05-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://ghadjiyiannis.github.io/categories/</loc>
-    <lastmod>2020-01-20T00:00:00+00:00</lastmod>
+    <lastmod>2020-05-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ghadjiyiannis.github.io/categories/culture/</loc>
-    <lastmod>2020-01-20T00:00:00+00:00</lastmod>
+    <loc>https://ghadjiyiannis.github.io/categories/cost/</loc>
+    <lastmod>2020-05-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://ghadjiyiannis.github.io/</loc>
+    <lastmod>2020-05-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ghadjiyiannis.github.io/categories/technology/</loc>
+    <lastmod>2020-05-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ghadjiyiannis.github.io/blog/typed_vs_untyped_languages/</loc>
+    <lastmod>2020-05-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ghadjiyiannis.github.io/categories/culture/</loc>
     <lastmod>2020-01-20T00:00:00+00:00</lastmod>
   </url>
   
@@ -78,11 +98,6 @@
   </url>
   
   <url>
-    <loc>https://ghadjiyiannis.github.io/categories/cost/</loc>
-    <lastmod>2019-10-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://ghadjiyiannis.github.io/blog/how_to_really_build_customer_centric_products/</loc>
     <lastmod>2019-10-02T00:00:00+00:00</lastmod>
   </url>
@@ -118,17 +133,7 @@
   </url>
   
   <url>
-    <loc>https://ghadjiyiannis.github.io/categories/architecture/</loc>
-    <lastmod>2019-09-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://ghadjiyiannis.github.io/blog/choosing_technologies/</loc>
-    <lastmod>2019-09-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ghadjiyiannis.github.io/categories/technology/</loc>
     <lastmod>2019-09-11T00:00:00+00:00</lastmod>
   </url>
   
