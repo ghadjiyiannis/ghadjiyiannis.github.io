@@ -174,15 +174,6 @@
     </item>
     
     <item>
-      <title>CI/CD</title>
-      <link>https://ghadjiyiannis.github.io/categories/ci/cd/</link>
-      <pubDate>Wed, 07 Aug 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://ghadjiyiannis.github.io/categories/ci/cd/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>DevOps</title>
       <link>https://ghadjiyiannis.github.io/categories/devops/</link>
       <pubDate>Wed, 07 Aug 2019 00:00:00 +0000</pubDate>
@@ -224,6 +215,15 @@
       <pubDate>Mon, 03 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://ghadjiyiannis.github.io/categories/engineers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CI/CD</title>
+      <link>https://ghadjiyiannis.github.io/categories/ci/cd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ghadjiyiannis.github.io/categories/ci/cd/</guid>
       <description></description>
     </item>
     

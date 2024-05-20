@@ -173,11 +173,6 @@
   </url>
   
   <url>
-    <loc>https://ghadjiyiannis.github.io/categories/ci/cd/</loc>
-    <lastmod>2019-08-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://ghadjiyiannis.github.io/blog/cicd_pipeline_design_putting_it_all_together/</loc>
     <lastmod>2019-08-07T00:00:00+00:00</lastmod>
   </url>
@@ -260,6 +255,10 @@
   <url>
     <loc>https://ghadjiyiannis.github.io/blog/its_a_start/</loc>
     <lastmod>2019-06-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ghadjiyiannis.github.io/categories/ci/cd/</loc>
   </url>
   
   <url>
